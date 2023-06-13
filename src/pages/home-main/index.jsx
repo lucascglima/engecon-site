@@ -4,20 +4,13 @@ import Head from "next/head";
 //= Layout
 import MainLightLayout from "../../layouts/main-light";
 //= Components
-import StickyBar from "../../components/Common/StickyBar";
-import FixedSearch from "../../components/Common/FixedSearch";
 import Header from "../../components/Main/Header1";
 import IntroUp from "../../components/Main/IntroUp";
-import IntroOutBox from "../../components/Main/IntroOut";
 import Services from "../../components/Main/Services1";
 import Portfolio2 from "../../components/Main/Portfolio2";
-import Section from "../../components/Main/Section";
-import Process from "../../components/Main/Process1";
-import Testimonials from "../../components/Main/Testimonials1";
 import Numbers from "../../components/Main/Numbers";
 import Team from "../../components/Main/Team";
 import CallToAction from "../../components/Main/CallAction";
-import Blog from "../../components/Main/Blog1";
 import Footer from "../../components/Footers/MainFooter";
 import Hero from "../../components/Architecture/Hero";
 import Contact from "../../components/Creative/Contact";
