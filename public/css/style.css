@@ -10955,6 +10955,7 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 767px) {
+  .portfolio .gallery .items
    .next-ctrl, .prev-ctrl{
     top: 65% !important;
   }
@@ -10976,7 +10977,7 @@ body.index-main .bg-gray {
     gap: 16px;
   }
   .portfolio .filtering .filter{
-    padding: 16px;
+    padding: 0;
   }
   .row-footer{
     flex-direction: column !important;
