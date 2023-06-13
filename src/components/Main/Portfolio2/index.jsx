@@ -12,18 +12,18 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <section className="portfolio section-padding bg-white">
+    <section className="portfolio section-padding bg-gray">
       <div className="container">
         <div className="row mb-80">
           <div className="col-lg-5">
             <div className="simple-head">
               <div>
                 <h6 className="sub-head radius mb-20">
-                  <span className="fz-12 ls2 text-u">Portfólio</span>
+                  <span className="fz-12 ls2 text-u">Porfólio de serviços</span>
                 </h6>
               </div>
               <h2 className="fz-40 fw-800 gr-purple-red-text inline">
-                Projetos recentes
+                Projetos realizados
               </h2>
             </div>
           </div>
