@@ -1,0 +1,31 @@
+{
+  "years": 40,
+  "text": "A impermeabilização é um processo que exige conhecimento técnico e a utilização de materiais adequados. ",
+  "srtext": "O método de impermeabilização escolhido depende do tipo de estrutura, das condições existentes e das necessidades específicas do condomínio. Existem diversos sistemas de impermeabilização, incluindo mantas asfálticas, poliméricas, argamassas poliméricas, resinas, entre outros.",
+  "feats": [
+    {
+      "bg": "img/engecon/enviadas/slide-1.jpg",
+      "numb": "01 .",
+      "title": "Infiltrações e Vazamentos",
+      "type": "Este é o problema mais comum resultante de uma impermeabilização inadequada."
+    },
+    {
+      "bg": "img/engecon/enviadas/slide-2.jpg",
+      "numb": "02 .",
+      "title": "Danos Estruturais.",
+      "type": "A infiltração nas estruturas de concreto pode levar a rachaduras e enfraquecimento da estrutura."
+    },
+    {
+      "bg": "img/engecon/impermeabilizacao/8.jpeg",
+      "numb": "03 .",
+      "title": "Desvalorização do Imóvel",
+      "type": "A reputação do prédio pode ser prejudicada, tornando mais difícil alugar ou vender as unidades."
+    },
+    {
+      "bg": "img/engecon/impermeabilizacao/6.jpeg",
+      "numb": "04 .",
+      "title": "Danos às Acabamentos",
+      "type": "A umidade e a água vazando podem danificar acabamentos como pintura, revestimentos de piso."
+    }
+  ]
+}

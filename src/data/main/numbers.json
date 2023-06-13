@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Condomínios satisfeitos",
+    "value": "200",
+    "operator": "+"
+  },
+  {
+    "title": "Realizando serviços desde",
+    "value": "2015"
+  },
+  {
+    "title": "Concreto armado trabalhados",
+    "value": "2000",
+    "operator": "m³"
+  },
+  {
+    "title": "Empresas  ",
+    "operator": "+",
+    "value": "30"
+  }
+]

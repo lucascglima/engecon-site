@@ -1,0 +1,36 @@
+{
+  "social_links": {
+    "facebook": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "youtube": "https://www.youtube.com/"
+  },
+  "links": [
+    {
+      "title": "Engecon",
+      "url": "/about-creative"
+    },
+    {
+      "title": "Time",
+      "url": "/about-business"
+    },
+    {
+      "title": "Serviços",
+      "url": "/services-creative"
+    }
+  ],
+  "recent_posts": [
+    {
+      "url": "/blog-grid-modern",
+      "image": "img/blog/c3.jpg",
+      "title": "How to check the website before releasing it?"
+    },
+    {
+      "url": "/blog-grid-modern",
+      "image": "img/blog/c1.jpg",
+      "title": "How to check the website before releasing it?"
+    }
+  ],
+  "address": "Rua Marechal Rondon",
+  "email": "contato@engeconrecife.com.br",
+  "phone": "81 9888-0215"
+}

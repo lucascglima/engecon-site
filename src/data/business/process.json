@@ -1,0 +1,22 @@
+[
+  {
+    "numb": "01",
+    "title": "Laudo técnico",
+    "details": "Identificar o problema, montagem do termo de referência para quantificar e definir padrões entre as propostas, realizado por teceirizado"
+  },
+  {
+    "numb": "02",
+    "title": "Montagem da proposta de preço",
+    "details": "Atendendo as demandas apresentadas no termo de referência, montar proposta orçamentária e cronograma de execução"
+  },
+  {
+    "numb": "03",
+    "title": "Execução do serviço",
+    "details": "Equipe altamente qualificada, Equipamentos  modernos, Produtos de primeira linha, Acompanhamento da obra por profissionais qualificados"
+  },
+  {
+    "numb": "04",
+    "title": "Suporte pós-obra",
+    "details": "Serviço que visa garantir que a obra entregue esteja funcionando corretamente e de acordo com o esperado pelo cliente."
+  }
+]

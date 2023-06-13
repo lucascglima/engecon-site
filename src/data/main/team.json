@@ -1,0 +1,17 @@
+[
+  {
+    "picture": "img/team/fake.png",
+    "name": "Carlos Alberto Pinto",
+    "position": "Engenheiro Civil"
+  },
+  {
+    "picture": "img/team/fake.png",
+    "name": "Joelma Pinto",
+    "position": "Diretora Administrativa"
+  },
+  {
+    "picture": "img/team/fake.png",
+    "name": "Vivian Melo",
+    "position": "Gerente Administrativa"
+  }
+]

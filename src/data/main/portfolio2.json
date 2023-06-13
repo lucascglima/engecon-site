@@ -1,0 +1,58 @@
+{
+  "filters": [
+    {
+      "name": "Todos",
+      "operator": "*"
+    },
+    {
+      "name": "Impermeabilização",
+      "operator": ".imp"
+    },
+    {
+      "name": "Recuperação estrutural",
+      "operator": ".rec"
+    },
+    {
+      "name": "Reforço estrutural",
+      "operator": ".ref"
+    }
+  ],
+  "images": [
+    {
+      "url": "img/engecon/enviadas/slide-1.jpg",
+      "type": "Reforço Estrutural",
+      "title": "Condomínio XYZ",
+      "filter": "ref"
+    },
+    {
+      "url": "img/engecon/enviadas/slide-2.jpg",
+      "type": "Recuperação Estrutural",
+      "title": "Condomínio XYZ",
+      "filter": "rec"
+    },
+    {
+      "url": "img/engecon/enviadas/slide-3.jpg",
+      "type": "Impermeabilização",
+      "title": "Condomínio XYZ",
+      "filter": "imp"
+    },
+    {
+      "url": "img/engecon/enviadas/slide-4.jpg",
+      "type": "Recuperação Estrutural",
+      "title": "Condomínio XYZ",
+      "filter": "rec"
+    },
+    {
+      "url": "img/engecon/enviadas/slide 4.jpg",
+      "type": "Impermeabilização",
+      "title": "Condomínio XYZ",
+      "filter": "ref"
+    },
+    {
+      "url": "img/engecon/enviadas/slide-1.jpg",
+      "type": "Reforço Estrutural",
+      "title": "Condomínio XYZ",
+      "filter": "imp"
+    }
+  ]
+}

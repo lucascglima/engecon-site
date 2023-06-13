@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "bg": "img/engecon/impermeabilizacao/6.jpeg",
+    "title": "Impermeabilização",
+    "details": "Processo cria uma barreira que impede a entrada de água e umidade nas estruturas do edifício, prevenindo assim danos futuros, como infiltrações, mofo e deterioração das estruturas de concreto",
+    "btn": {
+      "text": "Saiba mais",
+      "link": "/about-creative"
+    }
+  },
+  {
+    "id": 2,
+    "bg": "img/engecon/estrutural/1.jpg",
+    "title": "Reforma estrutural",
+    "details": "Seu Condomínio não só será mais seguro e funcional, como também terá o seu valor de mercado potencialmente aumentado essencial para manter a segurança, funcionalidade e valor do imóvel.",
+    "btn": {
+      "text": "Ver mais",
+      "link": "/about-creative"
+    }
+  },
+  {
+    "id": 3,
+    "bg": "img/engecon/estrutural/2.jpeg",
+    "title": "Reforço estrutural",
+    "details": "Conjunto de procedimentos que buscam identificar, prevenir e corrigir possíveis danos estruturais que possam comprometer a estabilidade do condomínio.",
+    "btn": {
+      "text": "Ver mais",
+      "link": "/about-creative"
+    }
+  }
+]
