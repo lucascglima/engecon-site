@@ -22,20 +22,23 @@ const CallToAction = () => {
                 Entre em contato com nossa equipe e tenha a segurança e
                 tranquilidade para o seu condomínio e empresa
               </p>
-              <Link href="/contact-creative">
-                <a className="butn butn-md green-bg text-light radius-30 mt-30">
-                  <span className="text slide-up">
-                    {" "}
-                    <span className="mr-20">Entrar em contato</span>
-                    <i className="fab fa-whatsapp fz-24"></i>
-                  </span>
-                  <span className="text slide-down">
-                    {" "}
-                    <span className="mr-20">Entrar em contato</span>
-                    <i className="fab fa-whatsapp fz-24"></i>
-                  </span>
-                </a>
-              </Link>
+
+              <a
+                className="butn butn-md green-bg text-light radius-30 mt-30"
+                href="https://api.whatsapp.com/send?phone=55819888021"
+                target="_blank"
+              >
+                <span className="text slide-up">
+                  {" "}
+                  <span className="mr-20">Entrar em contato</span>
+                  <i className="fab fa-whatsapp fz-24"></i>
+                </span>
+                <span className="text slide-down">
+                  {" "}
+                  <span className="mr-20">Entrar em contato</span>
+                  <i className="fab fa-whatsapp fz-24"></i>
+                </span>
+              </a>
             </div>
           </div>
         </div>

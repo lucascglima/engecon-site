@@ -1,14 +1,14 @@
 const Home = () => {
-  return <div />
-}
+  return <div />;
+};
 
 export const getServerSideProps = async () => {
   return {
     redirect: {
       permanent: true,
-      destination: '/landing-preview',
-    }
-  }
-}
+      destination: "/home-main",
+    },
+  };
+};
 
 export default Home;

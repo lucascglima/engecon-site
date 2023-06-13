@@ -136,13 +136,22 @@ const Header = () => {
         <div className="swiper-pagination top botm" ref={paginationRef}></div>
 
         <div className="social-icon">
-          <a href="#0">
+          <a href="https://web.facebook.com/engeconrecife/" target="_blank">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#0" className="ms-1">
+          <a href="https://www.instagram.com/engeconrecife/" target="_blank">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#0" className="ms-1">
+          <a
+            href="https://www.linkedin.com/company/engecon-servi%C3%A7os-de-engenharia/?originalSubdomain=br"
+            target="_blank"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=55819888021"
+            target="_blank"
+          >
             <i className="fab fa-whatsapp"></i>
           </a>
         </div>

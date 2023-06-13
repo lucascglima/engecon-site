@@ -4392,6 +4392,7 @@ img.left {
   left: 40px;
   bottom: 100px;
   z-index: 8;
+  
 }
 
 .slider .social-icon a {
@@ -4402,7 +4403,7 @@ img.left {
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.05);
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .slider .social-icon a:hover {

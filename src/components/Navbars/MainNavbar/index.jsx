@@ -362,7 +362,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact-creative">
+              <Link href="/home-main">
                 <a className="nav-link">Contato</a>
               </Link>
             </li>
@@ -370,13 +370,22 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
           <div className="social">
             <ul className="rest">
               <li>
-                <a href="#0">
+                <a
+                  href="https://web.facebook.com/engeconrecife/"
+                  target="_blank"
+                >
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
+                <a
+                  href="https://www.instagram.com/engeconrecife/"
+                  target="_blank"
+                >
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0">
+                <a
+                  href="https://api.whatsapp.com/send?phone=55819888021"
+                  target="_blank"
+                >
                   <i className="fab fa-whatsapp"></i>
                 </a>
               </li>

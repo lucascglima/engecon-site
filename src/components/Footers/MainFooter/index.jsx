@@ -30,20 +30,29 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
           <div className="col col-footer">
             <h5>Siga nossas redes</h5>
             <div className="flex">
-              <a href="#0">
+              <a
+                href="https://api.whatsapp.com/send?phone=55819888021"
+                target="_blank"
+              >
                 <i className="fab fa-whatsapp fz-24"></i>
               </a>
               <p className="ms-4">Whatsapp</p>
             </div>
             <div className="flex">
-              <a href="#0">
+              <a
+                href="https://www.instagram.com/engeconrecife/"
+                target="_blank"
+              >
                 <i className="fab fa-instagram fz-24"></i>
               </a>
               <p className="ms-4">Instagram</p>
             </div>
             <div className="flex">
               <div className="social-icon">
-                <a href="#0">
+                <a
+                  href="https://www.linkedin.com/company/engecon-servi%C3%A7os-de-engenharia/?originalSubdomain=br"
+                  target="_blank"
+                >
                   <i className="fab fa-linkedin fz-24"></i>
                 </a>
               </div>
@@ -51,7 +60,10 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
             </div>
             <div className="flex">
               <div className="social-icon">
-                <a href="#0">
+                <a
+                  href="https://web.facebook.com/engeconrecife/"
+                  target="_blank"
+                >
                   <i className="fab fa-facebook fz-24"></i>
                 </a>
               </div>
