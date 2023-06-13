@@ -23,9 +23,17 @@ const CallToAction = () => {
                 tranquilidade para o seu condomínio e empresa
               </p>
               <Link href="/contact-creative">
-                <a className="butn butn-md gr-purple-red-bg  text-light radius-30 mt-30">
-                  <span className="text slide-up">Entrar em contato</span>
-                  <span className="text slide-down">Entrar em contato</span>
+                <a className="butn butn-md green-bg text-light radius-30 mt-30">
+                  <span className="text slide-up">
+                    {" "}
+                    <span className="mr-20">Entrar em contato</span>
+                    <i className="fab fa-whatsapp fz-24"></i>
+                  </span>
+                  <span className="text slide-down">
+                    {" "}
+                    <span className="mr-20">Entrar em contato</span>
+                    <i className="fab fa-whatsapp fz-24"></i>
+                  </span>
                 </a>
               </Link>
             </div>

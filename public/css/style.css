@@ -4395,14 +4395,14 @@ img.left {
 }
 
 .slider .social-icon a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.05);
   color: #fff;
-  font-size: 13px;
+  font-size: 24px;
 }
 
 .slider .social-icon a:hover {
@@ -6299,6 +6299,11 @@ header.simple-header .path a:after {
   min-height: 400px;
   padding: 30px;
   position: relative;
+  border-radius: 12px;
+}
+.process-photo {
+  border-radius: 12px ;
+  max-width: 500px;
 }
 
 .feat-item-img .num {
@@ -7592,7 +7597,7 @@ header.simple-header .path a:after {
   text-align: center;
   line-height: 60px;
   border-radius: 50%;
-  background-color: #f8fbff;
+  background-color: #15171f;
   position: relative;
 }
 
@@ -7602,6 +7607,7 @@ header.simple-header .path a:after {
 }
 
 .process-img .steps-vr .numb .cover {
+  color: #fff;
   position: absolute;
   left: 0;
   top: 0;
@@ -9952,7 +9958,7 @@ header.simple-header .path a:after {
   min-width: 180px;
   text-align: center;
   border-radius: 30px;
-  border: 1px solid #3b3f82;
+  border: none;
   background: #3b3f82;
   color: #fff;
   -webkit-transition: all 0.4s;
@@ -10394,6 +10400,7 @@ body.index-main .bg-gray {
 /* ====================== [ End Colors Skin  ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
+ 
   .bg-img {
     background-position: center !important;
   }
@@ -10486,7 +10493,7 @@ body.index-main .bg-gray {
     max-height: 340px;
     overflow: auto;
     background: #fff;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px 15px;
   }
   .navbar .nav-link {
@@ -10947,6 +10954,34 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 767px) {
+   .next-ctrl, .prev-ctrl{
+    top: 65% !important;
+  }
+  
+  .swiper-button-next, .swiper-button-prev{
+    width: 24px !important;
+    height: 24px !important;
+    top: 70%;
+  }
+  .char{
+    font-size: 38px;
+  }
+  .slide-details{
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .intro-up {
+    gap: 16px;
+  }
+  .portfolio .filtering .filter{
+    padding: 16px;
+  }
+  .row-footer{
+    flex-direction: column !important;
+    gap: 32px;
+    padding-left: 24px;
+  }
   .sm-mb10 {
     margin-bottom: 10px;
   }
@@ -11049,8 +11084,14 @@ body.index-main .bg-gray {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 40px;
+    width: 150px;
+    margin-left: 0 !important;
   }
+  .navbar-toggler{
+    margin-right: 16px !important;
+    margin-top: 16px !important;
+  }
+
   .fw-700 {
     font-weight: 600 !important;
   }
@@ -11178,10 +11219,24 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   border-radius: 2px !important;
-  background: #b1d14e;
+  background: #092c4c;
   /* background-image: -webkit-linear-gradient(340deg, #b1d14e 0%, #1465c5 100%);
-  background-image: -o-linear-gradient(340deg, #b1d14e 0%, #1465c5 100%);
+  background-image: -o-linear-gradient(340deg, #   0%, #1465c5 100%);
   background-image: linear-gradient(110deg, #b1d14e 0%, #1465c5 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
 }
+
+.col-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.green-text {
+  color: #9ecf06 !important;
+}
+.green-bg {
+  background-color: #9ecf06 !important;
+}
+medi

@@ -93,12 +93,14 @@ const Header = () => {
                         </Split>
                         <div className="row justify-content-center">
                           <div className="col-lg-10">
-                            <p className="fz-16">{slide.details}</p>
+                            <p className="fz-16 slide-details">
+                              {slide.details}
+                            </p>
                           </div>
                         </div>
                         <div className="mt-30">
                           <Link href={slide.btn.link}>
-                            <a className="butn butn-md gr-purple-red-bg  text-light radius-30">
+                            <a className="butn butn-md green-bg  text-dark radius-30">
                               <span className="text slide-up">
                                 {slide.btn.text}
                               </span>

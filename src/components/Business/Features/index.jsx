@@ -16,11 +16,12 @@ const Features = ({ services }) => {
           >
             <div className="exp">
               {services ? (
-                <h2 className="fw-600">
-                  Por que realizar <span> impermeabilização?</span>{" "}
+                <h2 className="fw-600 ">
+                  Por que realizar{" "}
+                  <span className="fw-600 green-text"> impermeabilização?</span>{" "}
                 </h2>
               ) : (
-                <h3 className="fw-700">
+                <h3 className="fw-700 green-tet">
                   Por que realizar{" "}
                   <span className="fw-300">unique website</span>
                 </h3>
@@ -65,7 +66,7 @@ const Features = ({ services }) => {
                   <div className="num">{feature.numb}</div>
                   <div className="cont">
                     <h6 className="fz-22 fw-500">{feature.type}</h6>
-                    <span className="fz-14 opacity-8 mb-5">
+                    <span className="fz-14 opacity-8 mb-5 ">
                       {feature.title}
                     </span>
                   </div>

@@ -126,7 +126,7 @@ const Form = () => {
                     <button
                       type="submit"
                       onClick={handleSubmit}
-                      className="bg-black"
+                      className="green-bg"
                     >
                       <span>Enviar</span>
                     </button>

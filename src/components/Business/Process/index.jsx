@@ -8,12 +8,12 @@ const Process = ({ services }) => {
         <div className="row">
           <div className="col-lg-5">
             <div className="round-head mb-80">
-              <h6 className="ls2 text-u fz-13 fw-600 mb-20 gr-green-text rest">
+              <h6 className="ls2 text-u fz-13 fw-600 mb-20 gr-purple-red-text rest  ">
                 Como funciona?
               </h6>
-              <h3 className={services ? "fw-600" : "fw-700"}>
-                Entenda o processo de impermeabilização
-              </h3>
+              <h5 className={services ? "fw-600 " : "fw-700"}>
+                Processo de impermeabilizacao
+              </h5>
             </div>
             <div className="steps-vr">
               {process.map((step, idx) => (
@@ -25,8 +25,8 @@ const Process = ({ services }) => {
                 >
                   <div>
                     <div className="numb fw-600">
-                      <span className="gr-green-text">{step.numb}</span>
-                      <div className="cover gr-green-bg"></div>
+                      <span className="text-white">{step.numb}</span>
+                      <div className="cover green-bg text-black"></div>
                     </div>
                   </div>
                   <div className="cont ml-40">
@@ -38,10 +38,26 @@ const Process = ({ services }) => {
                 </div>
               ))}
             </div>
+            <div className="mt-50 text-center">
+              <a className="butn butn-md green-bg text-light radius-30 mt-30">
+                <span className="text slide-up">
+                  <span className="mr-20">Entrar em contato</span>
+                  <i className="fab fa-whatsapp fz-24"></i>
+                </span>
+                <span className="text slide-down">
+                  <span className="mr-20">Entrar em contato</span>
+                  <i className="fab fa-whatsapp fz-24"></i>
+                </span>
+              </a>
+            </div>
           </div>
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="img out-box mt-50">
-              <img src="img/engecon/enviadas/slide-4.jpg" alt="" />
+              <img
+                src="img/engecon/enviadas/slide-1.jpg"
+                alt=""
+                className="process-photo"
+              />
             </div>
           </div>
         </div>
