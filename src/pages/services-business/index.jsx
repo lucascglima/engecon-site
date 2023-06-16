@@ -41,7 +41,7 @@ const ServicesBusiness = () => {
       </Head>
 
       <MainLightLayout>
-        <Header bg="img/engecon/impermeabilizacao/1.jpg" />
+        <Header bg="img/engecon/impermeabilizacao/1.webp" />
         <main className="">
           <Features services={true} />
           <Portfolio2 />

@@ -10,7 +10,7 @@ const CallToAction = () => {
   return (
     <section
       className="section-padding bg-img parallaxie call-action"
-      data-background="img/engecon/impermeabilizacao/7.jpeg"
+      data-background="img/engecon/impermeabilizacao/7.webp"
       data-overlay-dark="6"
     >
       <div className="container">

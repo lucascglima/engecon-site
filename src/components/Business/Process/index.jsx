@@ -54,7 +54,7 @@ const Process = ({ services }) => {
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="img out-box mt-50">
               <img
-                src="img/engecon/enviadas/slide-1.jpg"
+                src="img/engecon/enviadas/slide-1.webp"
                 alt=""
                 className="process-photo"
               />

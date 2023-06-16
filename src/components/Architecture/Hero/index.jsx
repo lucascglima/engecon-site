@@ -17,7 +17,7 @@ const Hero = () => {
                 className="img bg-img"
                 style={{
                   backgroundImage:
-                    "url('img/engecon/impermeabilizacao/1-who.jpg')",
+                    "url('img/engecon/impermeabilizacao/1-who.webp')",
                 }}
               ></div>
               <div id="circle">
