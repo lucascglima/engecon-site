@@ -25,8 +25,12 @@ const CallToAction = () => {
 
               <a
                 className="butn butn-md green-bg text-light radius-30 mt-30"
-                href="https://api.whatsapp.com/send?phone=55819888021"
-                target="_blank"
+                onClick={() => {
+                  window.open(
+                    "https://api.whatsapp.com/send?phone=55819888021",
+                    "_blank"
+                  );
+                }}
               >
                 <span className="text slide-up">
                   {" "}

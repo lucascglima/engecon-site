@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link';
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -24,7 +24,9 @@ const Footer = () => {
                   <span className="icon main-color fz-22 pe-7s-map-marker"></span>
                 </div>
                 <div className="cont-flex">
-                  <span className="fz-16 line-height-30">5th Avenue, Ohio Drive Ashburn, VA 20147</span>
+                  <span className="fz-16 line-height-30">
+                    5th Avenue, Ohio Drive Ashburn, VA 20147
+                  </span>
                 </div>
               </div>
             </div>
@@ -37,7 +39,9 @@ const Footer = () => {
                 </div>
                 <div className="cont-flex">
                   <h6 className="mb-10">Email Us :</h6>
-                  <span className="fz-16"><a href="#0">Info-Support@Gmail.com</a></span>
+                  <span className="fz-16">
+                    <a href="#0">Info-Support@Gmail.com</a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -80,15 +84,15 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="copyrights d-flex justify-content-end">
+              {/* <div className="copyrights d-flex justify-content-end">
                 <p className="fz-13">© 2022 Ravo is Proudly Powered by <span className="underline"><a href="https://themeforest.net/user/themescamp" rel="noreferrer" target="_blank" className="main-color">ThemesCamp</a></span></p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

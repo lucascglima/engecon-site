@@ -371,20 +371,22 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
             <ul className="rest">
               <li>
                 <a
-                  href="https://web.facebook.com/engeconrecife/"
-                  target="_blank"
-                >
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a
-                  href="https://www.instagram.com/engeconrecife/"
-                  target="_blank"
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/engeconrecife/",
+                      "_blank"
+                    );
+                  }}
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a
-                  href="https://api.whatsapp.com/send?phone=55819888021"
-                  target="_blank"
+                  onClick={() => {
+                    window.open(
+                      "https://api.whatsapp.com/send?phone=55819888021",
+                      "_blank"
+                    );
+                  }}
                 >
                   <i className="fab fa-whatsapp"></i>
                 </a>

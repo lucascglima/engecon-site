@@ -9,14 +9,14 @@
   {
     "id": 2,
     "icon": " fa-solid fa-building-shield",
-    "title": "Reforço estrutural ",
+    "title": "Reforço estrutural",
     "detials": "Estabilidade da estrutura do condomínio, os residentes podem viver com tranquilidade.",
     "tags": ["Vigas", "Pilares", "Lajes", "Fundações"]
   },
   {
     "id": 3,
     "icon": "fa-solid fa-screwdriver-wrench",
-    "title": "Reforma estrutural",
+    "title": "Recuperação estrutural",
     "detials": "Essencial para manter a segurança, funcionalidade e valor do imóvel. Benefícios a longo prazo;",
     "tags": ["Infiltrações", "Trincas", "Deformações", "Desgaste"]
   }

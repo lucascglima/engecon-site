@@ -31,8 +31,12 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
             <h5>Siga nossas redes</h5>
             <div className="flex">
               <a
-                href="https://api.whatsapp.com/send?phone=55819888021"
-                target="_blank"
+                onClick={() => {
+                  window.open(
+                    "https://api.whatsapp.com/send?phone=55819888021",
+                    "_blank"
+                  );
+                }}
               >
                 <i className="fab fa-whatsapp fz-24"></i>
               </a>
@@ -40,34 +44,16 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
             </div>
             <div className="flex">
               <a
-                href="https://www.instagram.com/engeconrecife/"
-                target="_blank"
+                onClick={() => {
+                  window.open(
+                    "https://www.instagram.com/engeconrecife/",
+                    "_blank"
+                  );
+                }}
               >
                 <i className="fab fa-instagram fz-24"></i>
               </a>
               <p className="ms-4">Instagram</p>
-            </div>
-            <div className="flex">
-              <div className="social-icon">
-                <a
-                  href="https://www.linkedin.com/company/engecon-servi%C3%A7os-de-engenharia/?originalSubdomain=br"
-                  target="_blank"
-                >
-                  <i className="fab fa-linkedin fz-24"></i>
-                </a>
-              </div>
-              <p className="ms-4">Linkedin</p>
-            </div>
-            <div className="flex">
-              <div className="social-icon">
-                <a
-                  href="https://web.facebook.com/engeconrecife/"
-                  target="_blank"
-                >
-                  <i className="fab fa-facebook fz-24"></i>
-                </a>
-              </div>
-              <p className="ms-4">Facebook</p>
             </div>
           </div>
         </div>

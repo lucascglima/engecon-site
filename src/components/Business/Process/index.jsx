@@ -12,7 +12,7 @@ const Process = ({ services }) => {
                 Como funciona?
               </h6>
               <h5 className={services ? "fw-600 " : "fw-700"}>
-                Processo de impermeabilizacao
+                Serviço de Impermeabilização
               </h5>
             </div>
             <div className="steps-vr">
@@ -24,13 +24,13 @@ const Process = ({ services }) => {
                   key={idx}
                 >
                   <div>
-                    <div className="numb fw-600">
+                    <div className="numb  fw-600">
                       <span className="text-white">{step.numb}</span>
-                      <div className="cover green-bg text-black"></div>
+                      <div className="cover text-black"></div>
                     </div>
                   </div>
                   <div className="cont ml-40">
-                    <h6 className={`mb-10 ${services ? "fz-16 fw-600" : ""}`}>
+                    <h6 className={`mb-10  ${services ? "fz-16 fw-600" : ""}`}>
                       {step.title}
                     </h6>
                     <p className="fz-13">{step.details}</p>
@@ -39,7 +39,7 @@ const Process = ({ services }) => {
               ))}
             </div>
             <div className="mt-50 text-center">
-              <a className="butn butn-md green-bg text-light radius-30 mt-30">
+              <a className="butn butn-md  text-light radius-30 mt-30">
                 <span className="text slide-up">
                   <span className="mr-20">Entrar em contato</span>
                   <i className="fab fa-whatsapp fz-24"></i>

@@ -1,22 +1,22 @@
 [
   {
     "numb": "01",
-    "title": "Laudo técnico",
-    "details": "Identificar o problema, montagem do termo de referência para quantificar e definir padrões entre as propostas, realizado por teceirizado"
+    "title": "Preparação da Superfície",
+    "details": "Remoção de qualquer revestimento ou material existente, a limpeza de sujeira e detritos e a inspeção cuidadosa para identificar quaisquer danos estruturais ou rachaduras que precisem ser reparados"
   },
   {
     "numb": "02",
-    "title": "Montagem da proposta de preço",
-    "details": "Atendendo as demandas apresentadas no termo de referência, montar proposta orçamentária e cronograma de execução"
+    "title": "Aplicação do Prime",
+    "details": "O primer é uma camada de base que ajuda a garantir uma boa aderência do material de impermeabilização à superfície. Ele deve ser aplicado uniformemente em toda a área a ser impermeabilizada"
   },
   {
     "numb": "03",
-    "title": "Execução do serviço",
-    "details": "Equipe altamente qualificada, Equipamentos  modernos, Produtos de primeira linha, Acompanhamento da obra por profissionais qualificados"
+    "title": "Aplicação do Material de Impermeabilização",
+    "details": "Esta camada de material de impermeabilização deve ser aplicada uniformemente, garantindo que toda a área seja coberta, sem lacunas ou áreas negligenciadas"
   },
   {
     "numb": "04",
-    "title": "Suporte pós-obra",
-    "details": "Serviço que visa garantir que a obra entregue esteja funcionando corretamente e de acordo com o esperado pelo cliente."
+    "title": "Acabamento e Inspeção Fina",
+    "details": "Por fim, uma inspeção final deve ser realizada para garantir que o processo de impermeabilização foi realizado."
   }
 ]

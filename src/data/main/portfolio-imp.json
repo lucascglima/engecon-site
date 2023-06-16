@@ -1,0 +1,72 @@
+{
+  "filters": [
+    {
+      "name": "Todos",
+      "operator": "*"
+    },
+    {
+      "name": "Elevador",
+      "operator": ".ele"
+    },
+    {
+      "name": "Laje",
+      "operator": ".laj"
+    },
+    {
+      "name": "Cobertura",
+      "operator": ".cob"
+    },
+    {
+      "name": "Piscina",
+      "operator": ".pis"
+    },
+    {
+      "name": "Subsolo",
+      "operator": ".sub"
+    }
+  ],
+  "images": [
+    {
+      "url": "img/engecon/enviadas/slide-1.jpg",
+      "type": "Elevador",
+      "title": "Aplicação de Manta Asfáltica",
+      "details": "Ideal para superfícies verticais, devido à sua resistência.",
+      "filter": "ele"
+    },
+    {
+      "url": "img/engecon/enviadas/slide-2.jpg",
+      "type": "Laje",
+      "title": "Aplicação de Primer",
+      "details": "Adiciona uma camada de aderência.",
+      "filter": "laj"
+    },
+    {
+      "url": "img/engecon/enviadas/slide-3.jpg",
+      "type": "Laje",
+      "title": "Aplicação de Manta Asfáltica",
+      "details": "Protege contra água e evita infiltrações.",
+      "filter": "laj"
+    },
+    {
+      "url": "img/engecon/enviadas/slide-4.jpg",
+      "type": "Cobertura",
+      "title": "Aplicação de Membrana de Poliuretano",
+      "details": "Oferece proteção contra chuva e sol.",
+      "filter": "cob"
+    },
+    {
+      "url": "img/engecon/enviadas/slide 4.jpg",
+      "type": "Subsolo",
+      "title": "Aplicação de Manta Asfáltica",
+      "details": "Ideal para Subsolo devido à sua alta resistência.",
+      "filter": "sub"
+    },
+    {
+      "url": "img/engecon/enviadas/slide-1.jpg",
+      "type": "Piscina",
+      "title": "Aplicação de Argamassa Polimérica",
+      "details": "Cria uma camada impermeável, ideal para Piscina.",
+      "filter": "pis"
+    }
+  ]
+}

@@ -1,20 +1,20 @@
 [
   {
     "numb": "01",
-    "icon": "pe-7s-mouse",
-    "title": "Research Project",
-    "details": "Cras en diam ips elementum pretium hendrerit ultricies."
+    "icon": "pe-7s-network",
+    "title": "Laudo técnico",
+    "details": "Empresa externa identifica o problema e monta o termo de referência para quantificar e definir padrões entre as propostas"
   },
   {
     "numb": "02",
     "icon": "pe-7s-rocket",
-    "title": "Targeting",
-    "details": "Cras en diam ips elementum pretium hendrerit ultricies."
+    "title": "Envio da proposta",
+    "details": "Atendendo as demandas do termo de referência, fazemos a proposta orçamentária e cronograma de execução do serviço"
   },
   {
     "numb": "03",
-    "icon": "pe-7s-like2",
-    "title": "Result",
-    "details": "Cras en diam ips elementum pretium hendrerit ultricies."
+    "icon": "pe-7s-tools",
+    "title": "Execução do serviço",
+    "details": "Relizamos o serviço com excelência e qualidade e todo suporte necessário pós-obra."
   }
 ]

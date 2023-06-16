@@ -8,6 +8,8 @@ import Header from "../../components/Business/Header2";
 
 import Features from "../../components/Business/Features";
 import Process from "../../components/Business/Process";
+import Process2 from "../../components/Main/Process2";
+import Portfolio2 from "../../components/Main/Portfolio2/impermeabilization";
 
 import Footer from "../../components/Footers/MainFooter";
 import Contact from "../../components/Creative/Contact";
@@ -40,9 +42,11 @@ const ServicesBusiness = () => {
 
       <MainLightLayout>
         <Header bg="img/engecon/impermeabilizacao/1.jpg" />
-        <main className="position-re">
+        <main className="">
           <Features services={true} />
-          <Process services={true} />
+          <Portfolio2 />
+          <Process />
+          <Process2 />
           <Contact />
           <Footer
             footerClass="main-footer bg-dark-blue bg-img"
