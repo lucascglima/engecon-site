@@ -57,7 +57,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
           </div>
           <div className="col col-footer">
             <h5>Siga nossas redes</h5>
-            <div className="flex">
+            <div className="flex text-center">
               <a
                 onClick={() => {
                   window.open(
@@ -68,7 +68,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
               >
                 <i className="fab fa-whatsapp fz-24"></i>
               </a>
-              <p className="ms-4">Whatsapp</p>
+              <p className="ms-4 pointer text-hover">Whatsapp</p>
             </div>
             <div className="flex">
               <a
@@ -81,7 +81,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
               >
                 <i className="fab fa-instagram fz-24"></i>
               </a>
-              <p className="ms-4">Instagram</p>
+              <p className="ms-4 pointer text-hover">Instagram</p>
             </div>
           </div>
         </div>

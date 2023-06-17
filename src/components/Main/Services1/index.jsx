@@ -11,10 +11,14 @@ const Services = () => {
               <div className="flex">
                 <div className="m-title valign">
                   <div>
-                    <h6 className="ls2 text-u fz-13 mb-20 gr-purple-red-text rest inline">
-                      Qualidade garantida
+                    <h6 className="sub-head radius mb-20">
+                      <span className="fz-12 ls2 text-u">
+                        Qualidade garantida
+                      </span>
                     </h6>
-                    <h2 className="fw-700 dark-blue-text">Nossos Serviços</h2>
+                    <h2 className="fw-700 gr-purple-red-text">
+                      Nossos Serviços
+                    </h2>
                   </div>
                 </div>
                 <div className="s-title valign ml-auto">

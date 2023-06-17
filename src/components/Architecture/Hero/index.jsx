@@ -60,10 +60,10 @@ const Hero = () => {
           </div>
           <div className="col-lg-6 valign">
             <div className="content">
-              <h6 className="fz-12 text-u ls4 yellow-green-color mb-10">
-                Quem somos
-              </h6>
-              <h3 className="mb-30">{heroData.text}</h3>
+              <h5 className="sub-head radius mb-20">
+                <span className="fz-12 ls2 text-u">Quem somos</span>
+              </h5>
+              <h3 className="mb-30 gr-purple-red-text">{heroData.text}</h3>
               <p className="mb-10">{heroData.text2}</p>
               <p>{heroData.text3}</p>
               {/* <a
