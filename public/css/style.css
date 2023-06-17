@@ -11288,3 +11288,7 @@ body::-webkit-scrollbar-thumb {
 .footer-link:hover{
   text-decoration: underline;
 }
+.icon-intro{
+  width: 50px !important;
+  
+}

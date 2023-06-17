@@ -1,15 +1,37 @@
 import IntroData from "../../../data/main/intro.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBusinessTime,
+  faSquareCheck,
+  faShieldHalved,
+} from "@fortawesome/free-solid-svg-icons";
 
 const IntroUp = () => {
+  const icons = (index) => {
+    if (index == 1) {
+      return faBusinessTime;
+    }
+    if (index == 2) {
+      return faSquareCheck;
+    }
+    if (index == 3) {
+      return faShieldHalved;
+    }
+  };
+
   return (
     <section className="intro-up bg-gray">
       <div className="container">
         <div className="row">
-          {IntroData.map((item) => (
+          {IntroData.map((item, i) => (
             <div className="col-lg-4" key={item.id}>
               <div className="item flex wow fadeInUp" data-wow-delay=".1s">
                 <div className="icon fz-40 mr-30 rest">
-                  <span className={`${item.icon} green-text`}></span>
+                  <FontAwesomeIcon
+                    icon={icons(item.id)}
+                    className="blue-text icon-intro"
+                  />
+                  {/* <i className={`${item.icon} blue-text`}></i> */}
                 </div>
                 <div className="cont">
                   <h6 className="mb-5 fw-600">{item.title}</h6>
