@@ -1,24 +1,7 @@
 import Link from "next/link";
 import services from "../../../data/main/services1.json";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPaintRoller,
-  faBuildingShield,
-  faScrewdriverWrench,
-} from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
-  const icons = (index) => {
-    if (index == 0) {
-      return faPaintRoller;
-    }
-    if (index == 1) {
-      return faBuildingShield;
-    }
-    if (index == 2) {
-      return faScrewdriver;
-    }
-  };
   return (
     <section className="services section-padding">
       <div className="container">
@@ -47,18 +30,14 @@ const Services = () => {
           </div>
         </div>
         <div className="row">
-          {services.map((service, i) => (
+          {services.map((service) => (
             <div className="col-lg-4" key={service.id}>
               <div
                 className="item shadw bord wow fadeInUp"
                 data-wow-delay=".1s"
               >
                 <div className="icon fz-50 mb-15 rest">
-                  <FontAwesomeIcon
-                    icon={icons(i)}
-                    className="green-text w-25"
-                  />
-                  {/* <span className={`${service.icon} gr-purple-red-text`}></span> */}
+                  <span className={`${service.icon} gr-purple-red-text`}></span>
                 </div>
                 <h6 className="mb-15">{service.title}</h6>
                 <p>{service.detials}</p>
