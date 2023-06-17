@@ -17,22 +17,19 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
           <div className="col col-footer">
             <h5>Serviços</h5>
             <p>
-              <a className="footer-link pointer" href="/impermeabilization">
-                Impermeabilização
-              </a>
+              <Link href="/impermeabilization">
+                <a className="footer-link pointer">Impermeabilização</a>
+              </Link>
             </p>
             <p>
-              <a className="footer-link pointer " href="/structural-recovery">
-                Recuperação estrutural
-              </a>
+              <Link href="/structural-recovery">
+                <a className="footer-link pointer"> Recuperação estrutural</a>
+              </Link>
             </p>
             <p>
-              <a
-                className="footer-link pointer"
-                href="/structural-reinforcement"
-              >
-                Reforço estrutural
-              </a>
+              <Link href="/structural-reinforcement">
+                <a className="footer-link pointer"> Reforço estrutural</a>
+              </Link>
             </p>
           </div>
           <div className="col col-footer">
