@@ -37,7 +37,7 @@ const Services = () => {
                 data-wow-delay=".1s"
               >
                 <div className="icon fz-50 mb-15 rest">
-                  <span className={`${service.icon} gr-purple-red-text`}></span>
+                  <span className={`${service.icon} blue-text`}></span>
                 </div>
                 <h6 className="mb-15">{service.title}</h6>
                 <p>{service.detials}</p>
