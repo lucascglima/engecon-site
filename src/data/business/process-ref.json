@@ -1,0 +1,22 @@
+[
+  {
+    "numb": "01",
+    "title": "Desenvolvimento do Projeto de Reforço",
+    "details": "Este projeto detalha as soluções de reforço a serem implementadas, como a adição de elementos estruturais, a utilização de materiais de reforço como concreto armado ou fibras de carbono, ou a aplicação de técnicas como o pré-esforço ou pós-tensão."
+  },
+  {
+    "numb": "02",
+    "title": "Execução do Reforço",
+    "details": "Isso pode envolver a preparação da área de trabalho, a remoção de qualquer material danificado, a instalação do reforço conforme projetado e o monitoramento cuidadoso de todas as atividades para garantir a conformidade com as especificações do projeto."
+  },
+  {
+    "numb": "03",
+    "title": "Inspeção e Testes Pós-Execução",
+    "details": " Após a conclusão do reforço, é realizada uma inspeção pós-execução para garantir que todos os reforços tenham sido instalados corretamente e estejam funcionando como planejado."
+  },
+  {
+    "numb": "04",
+    "title": "Monitoramento e Manutenção",
+    "details": "Por último, mas não menos importante, o edifício reforçado é submetido a um programa de monitoramento e manutenção contínuos para garantir que o reforço continue a desempenhar conforme esperado."
+  }
+]

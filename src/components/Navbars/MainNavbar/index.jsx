@@ -347,17 +347,17 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/services-business">
+              <Link href="/impermeabilization">
                 <a className="nav-link">Impermeabilização</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/services-business">
+              <Link href="/structural-recovery">
                 <a className="nav-link">Recuperação estrutural</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/services-business">
+              <Link href="/structural-reinforcement">
                 <a className="nav-link">Reforço estrutural</a>
               </Link>
             </li>

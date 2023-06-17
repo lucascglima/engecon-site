@@ -1,0 +1,32 @@
+{
+  "years": 40,
+  "text": "O Reforço estrutural é um serviço que exige bastnte atenção.",
+  "srtext": "Pense no reforço estrutural como um check-up de saúde para o seu condomínio. Assim como cuidamos da nossa saúde para prevenir doenças, o reforço estrutural é uma forma preventiva de garantir que a 'saúde' do seu condomínio está em ordem.",
+  "feats": [
+    {
+      "bg": "img/engecon/estrutural/2.webp",
+      "numb": "01 .",
+      "title": "Envelhecimento do Edifício",
+      "type": "Com o tempo, o desgaste natural pode levar a rachaduras ou deformações na estrutura."
+    },
+    {
+      "bg": "img/engecon/estrutural/horizontal/5.jpg",
+
+      "numb": "02 .",
+      "title": "Corrosão das Armaduras",
+      "type": " A corrosão das armaduras de aço no concreto pode enfraquecer a estrutura do edifício e exigir reforço"
+    },
+    {
+      "bg": "img/engecon/estrutural/rec-1.jpg",
+      "numb": "03 .",
+      "title": "Segurança",
+      "type": "Uma estrutura enfraquecida pode levar a falhas catastróficas. Segundo, o valor do seu imóvel."
+    },
+    {
+      "bg": "img/engecon/estrutural/horizontal/3.jpg",
+      "numb": "04 .",
+      "title": "Condições Ambientais",
+      "type": " Condições ambientais como altos níveis de umidade, maresia podem danificar a estrutura de um edifício e exigir reforço."
+    }
+  ]
+}

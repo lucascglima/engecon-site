@@ -10796,7 +10796,7 @@ body.index-main .bg-gray {
     font-size: 28px !important;
   }
   .simple-head h2 {
-    font-size: 30px !important;
+    font-size: 28px !important;
   }
   .services .item,
   .numbers .bloc,
@@ -11204,9 +11204,21 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 480px) {
+   .simple-head {
+    text-align: center;
+  }
   .portfolio .gallery .items {
   padding: 0 15px ;
-  margin: 50px 15px;
+  margin: 50px 0;
+  }
+  .portfolio .gallery .services {
+    margin: 40px 15px !important;
+  }
+  .mb-80{
+   margin-bottom: 0px !important;
+  }
+  .section-padding{
+    padding: 60px 0;
   }
 
   .hero-cir .th-cir {
@@ -11272,4 +11284,7 @@ body::-webkit-scrollbar-thumb {
 }
 .pointer {
   cursor: pointer
+}
+.footer-link:hover{
+  text-decoration: underline;
 }

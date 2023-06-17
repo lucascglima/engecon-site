@@ -8,12 +8,10 @@ const Process = ({ services }) => {
         <div className="row">
           <div className="col-lg-5">
             <div className="round-head mb-80">
-              <h6 className="ls2 text-u fz-13 fw-600 mb-20 gr-green-text rest">
-                Our process
+              <h6 className="ls2 text-u fz-13 fw-600 mb-20 gr-purple-red-text rest  ">
+                Como funciona?
               </h6>
-              <h3 className={services ? "fw-600" : "fw-700"}>
-                Explore the <br /> creative process
-              </h3>
+              <h5 className="fw-700 mb-40">Serviço de Impermeabilização</h5>
             </div>
             <div className="steps-vr">
               {process.map((step, idx) => (
@@ -24,13 +22,13 @@ const Process = ({ services }) => {
                   key={idx}
                 >
                   <div>
-                    <div className="numb fw-600">
-                      <span className="gr-green-text">{step.numb}</span>
-                      <div className="cover gr-green-bg"></div>
+                    <div className="numb  fw-600">
+                      <span className="text-white">{step.numb}</span>
+                      <div className="cover text-black"></div>
                     </div>
                   </div>
                   <div className="cont ml-40">
-                    <h6 className={`mb-10 ${services ? "fz-16 fw-600" : ""}`}>
+                    <h6 className={`mb-10  ${services ? "fz-16 fw-600" : ""}`}>
                       {step.title}
                     </h6>
                     <p className="fz-13">{step.details}</p>
@@ -38,10 +36,26 @@ const Process = ({ services }) => {
                 </div>
               ))}
             </div>
+            <div className="mt-50 text-center">
+              <a className="butn butn-md  text-light radius-30 mt-30">
+                <span className="text slide-up">
+                  <span className="mr-20">Entrar em contato</span>
+                  <i className="fab fa-whatsapp fz-24"></i>
+                </span>
+                <span className="text slide-down">
+                  <span className="mr-20">Entrar em contato</span>
+                  <i className="fab fa-whatsapp fz-24"></i>
+                </span>
+              </a>
+            </div>
           </div>
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="img out-box mt-50">
-              <img src="img/laptop1.png" alt="" />
+              <img
+                src="img/engecon/enviadas/slide-1.webp"
+                alt=""
+                className="process-photo"
+              />
             </div>
           </div>
         </div>

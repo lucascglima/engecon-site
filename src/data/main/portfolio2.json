@@ -13,7 +13,7 @@
       "operator": ".rec"
     },
     {
-      "name": "Recuperação estrutural",
+      "name": "Reforço estrutural",
       "operator": ".ref"
     }
   ],
@@ -22,7 +22,8 @@
       "url": "img/engecon/enviadas/slide-1.webp",
       "type": "Reforço Estrutural",
       "title": "Condomínio XYZ",
-      "filter": "ref"
+      "filter": "ref",
+      "href": "/"
     },
     {
       "url": "img/engecon/enviadas/slide-2.webp",

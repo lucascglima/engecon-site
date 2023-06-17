@@ -1,0 +1,22 @@
+[
+  {
+    "numb": "01",
+    "title": "Preparação da Superfície",
+    "details": "Remoção de qualquer revestimento ou material existente, a limpeza de sujeira e detritos e a inspeção cuidadosa para identificar quaisquer danos estruturais ou rachaduras que precisem ser reparados"
+  },
+  {
+    "numb": "02",
+    "title": "Aplicação do Prime",
+    "details": "O primer é uma camada de base que ajuda a garantir uma boa aderência do material de impermeabilização à superfície. Ele deve ser aplicado uniformemente em toda a área a ser impermeabilizada"
+  },
+  {
+    "numb": "03",
+    "title": "Aplicação do Material de Impermeabilização",
+    "details": "Esta camada de material de impermeabilização deve ser aplicada uniformemente, garantindo que toda a área seja coberta, sem lacunas ou áreas negligenciadas"
+  },
+  {
+    "numb": "04",
+    "title": "Acabamento e Inspeção Fina",
+    "details": "Por fim, uma inspeção final deve ser realizada para garantir que o processo de impermeabilização foi realizado."
+  }
+]

@@ -11,9 +11,7 @@ const Process = ({ services }) => {
               <h6 className="ls2 text-u fz-13 fw-600 mb-20 gr-purple-red-text rest  ">
                 Como funciona?
               </h6>
-              <h5 className={services ? "fw-600 " : "fw-700"}>
-                Serviço de Impermeabilização
-              </h5>
+              <h5 className="fw-700 mb-40">Serviço de Impermeabilização</h5>
             </div>
             <div className="steps-vr">
               {process.map((step, idx) => (

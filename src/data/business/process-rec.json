@@ -1,0 +1,22 @@
+[
+  {
+    "numb": "01",
+    "title": "Elaboração do Projeto de Recuperação",
+    "details": "Detalhando as intervenções necessárias, os materiais a serem utilizados e os métodos de aplicação. Este projeto deve considerar aspectos técnicos, econômicos e logísticos."
+  },
+  {
+    "numb": "02",
+    "title": "Implementação das Intervenções",
+    "details": "Realização efetiva do tratamentos de infiltrações, reparos de fissuras com injeção de resina epóxi, reforço de elementos estruturais com fibras de carbono ou aço, substituição ou reparo de armaduras oxidadas, entre outros."
+  },
+  {
+    "numb": "03",
+    "title": "Monitoramento Estrutura",
+    "details": "Etapa essencial estabelecer um programa de monitoramento estrutural para avaliar a eficácia das intervenções e detectar precocemente novas possíveis patologias."
+  },
+  {
+    "numb": "04",
+    "title": "Manutenção Preventiva",
+    "details": "Programa de manutenção preventiva deve ser estabelecido para prolongar a vida útil da estrutura e prevenir novos danos."
+  }
+]

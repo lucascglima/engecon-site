@@ -16,16 +16,47 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
         <div className="row row-footer">
           <div className="col col-footer">
             <h5>Serviços</h5>
-            <p>Impermeabilização</p>
-            <p>Recuperação estrutural</p>
-            <p>Reforço estrutural</p>
+            <p>
+              <a className="footer-link pointer" href="/impermeabilization">
+                Impermeabilização
+              </a>
+            </p>
+            <p>
+              <a className="footer-link pointer " href="/structural-recovery">
+                Recuperação estrutural
+              </a>
+            </p>
+            <p>
+              <a
+                className="footer-link pointer"
+                href="/structural-reinforcement"
+              >
+                Reforço estrutural
+              </a>
+            </p>
           </div>
           <div className="col col-footer">
             <h5>Fale conosco</h5>
-            <p>Telefone: (81) 3333-3333</p>
-            <p>E-mail: contato@engeconrecife.com</p>
-            <p>Endereço: Rua marechal Rondon, 250</p>
-            <p>CNPJ: XXXX-XXXXX-XXXXX</p>
+            <p>
+              <strong>Telefone:</strong> (81) 3127-2701
+            </p>
+            <p>
+              <strong>Celular:</strong> (81) 9.9888-0215 / (81) 9.9982-2701
+            </p>
+            <p>
+              <strong>E-mail:</strong> contato@engeconrecife.com.br
+            </p>
+            <p>
+              <strong>Endereço:</strong> Rua Marechal Rondon, 146 Cx Postal 521
+              – Casa Forte – Recife – PE CEP 52.061-050
+            </p>
+            <p>
+              <strong>CNPJ:</strong> 23.131.228/0001-16
+            </p>
+            <p>
+              <strong>Engecon Serviços de Engenharia LTDA</strong>
+            </p>
+            <p></p>
           </div>
           <div className="col col-footer">
             <h5>Siga nossas redes</h5>

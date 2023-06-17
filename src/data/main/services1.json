@@ -4,20 +4,23 @@
     "icon": "fa-solid fa-paint-roller",
     "title": "Impermeabilização",
     "detials": "Os serviços de impermeabilização podem ser aplicados em diversas áreas do condomínio.",
-    "tags": ["Coberturas", "lajes", "piscinas", "Subsolos", "Garagens"]
+    "tags": ["Coberturas", "lajes", "piscinas", "Subsolos", "Garagens"],
+    "href": "/services-business/impermeabilization"
   },
   {
     "id": 2,
     "icon": " fa-solid fa-building-shield",
     "title": "Reforço estrutural",
     "detials": "Estabilidade da estrutura do condomínio, os residentes podem viver com tranquilidade.",
-    "tags": ["Vigas", "Pilares", "Lajes", "Fundações"]
+    "tags": ["Vigas", "Pilares", "Lajes", "Fundações"],
+    "href": "/services-business/structural-reinforcement"
   },
   {
     "id": 3,
     "icon": "fa-solid fa-screwdriver-wrench",
     "title": "Recuperação estrutural",
     "detials": "Essencial para manter a segurança, funcionalidade e valor do imóvel. Benefícios a longo prazo;",
-    "tags": ["Infiltrações", "Trincas", "Deformações", "Desgaste"]
+    "tags": ["Infiltrações", "Trincas", "Deformações", "Desgaste"],
+    "href": "/services-business/structural-recovery"
   }
 ]
