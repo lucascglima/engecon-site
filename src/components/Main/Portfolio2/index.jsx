@@ -44,7 +44,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="gallery min-30">
+        <div className="gallery ">
           <div className="row">
             {portfolio.images.map((image, idx) => (
               <div
@@ -56,7 +56,7 @@ const Portfolio = () => {
                   <Link href="/services-business">
                     <a className="imago wow">
                       <img src={image.url} alt="image" />
-                      <div className="item-img-overlay gr-purple-red-bg text-white justify-center">
+                      <div className="item-img-overlay green-bg radius text-white justify-center">
                         <span className="text-center see-more text-light fz-20">
                           Saiba mais
                         </span>

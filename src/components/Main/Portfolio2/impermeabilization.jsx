@@ -55,17 +55,15 @@ const Portfolio = () => {
                 key={idx}
               >
                 <div className="item-img">
-                  <Link href="/services-business">
-                    <a className="imago wow">
-                      <img src={image.url} alt="image" />
-                      <div className="item-img-overlay dark-blue-bg text-white justify-center">
-                        <span className="text-center see-more-services text-light fz-16">
-                          {image.details}
-                        </span>
-                        {/* <i className="fas fa-arrow-right icon text-light fz-20"></i> */}
-                      </div>
-                    </a>
-                  </Link>
+                  <a className="imago wow">
+                    <img src={image.url} alt="image" />
+                    <div className="item-img-overlay dark-blue-bg text-white justify-center">
+                      <span className="text-center see-more-services text-light fz-16">
+                        {image.details}
+                      </span>
+                      {/* <i className="fas fa-arrow-right icon text-light fz-20"></i> */}
+                    </div>
+                  </a>
                 </div>
                 <div className="cont mt-30 text-center">
                   <h6 className="fw-700 fz-17 mb-5">{image.title}</h6>

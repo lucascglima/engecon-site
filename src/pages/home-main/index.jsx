@@ -15,6 +15,8 @@ import Footer from "../../components/Footers/MainFooter";
 import Hero from "../../components/Architecture/Hero";
 import Contact from "../../components/Creative/Contact";
 
+import StickyBar from "../../components/Common/StickyBar";
+
 const HomeMain = () => {
   useEffect(() => {
     document.body.classList.add("index-main");
@@ -42,7 +44,7 @@ const HomeMain = () => {
       </Head>
 
       <MainLightLayout>
-        {/* <StickyBar /> */}
+        <StickyBar />
         {/* <FixedSearch /> */}
         <Header />
         <IntroUp />

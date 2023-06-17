@@ -10,7 +10,7 @@ import Features from "../../components/Business/Features";
 import Process from "../../components/Business/Process";
 import Process2 from "../../components/Main/Process2";
 import Portfolio2 from "../../components/Main/Portfolio2/impermeabilization";
-
+import StickyBar from "../../components/Common/StickyBar";
 import Footer from "../../components/Footers/MainFooter";
 import Contact from "../../components/Creative/Contact";
 
@@ -41,8 +41,9 @@ const ServicesBusiness = () => {
       </Head>
 
       <MainLightLayout>
-        <Header bg="img/engecon/impermeabilizacao/1.webp" />
+        <Header bg="img/engecon/impermeabilizacao/bg-service.webp" />
         <main className="">
+          <StickyBar />
           <Features services={true} />
           <Portfolio2 />
           <Process />

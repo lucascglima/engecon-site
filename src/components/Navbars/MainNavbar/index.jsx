@@ -361,11 +361,11 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
                 <a className="nav-link">Reforço estrutural</a>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href="/home-main">
                 <a className="nav-link">Contato</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
           <div className="social">
             <ul className="rest">

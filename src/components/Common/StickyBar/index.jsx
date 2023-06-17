@@ -22,23 +22,33 @@ const StickyBar = () => {
   return (
     <div className="sticky-bar">
       <div className="left-bar">
-        <Link href="/contact-creative">
-          <a className="contact-butn">
-            <span>Entrar em contato</span>
-            <span className="icon ml-10">
-              <i className="far fa-comment"></i>
-            </span>
-          </a>
-        </Link>
+        <a
+          className="contact-butn pointer"
+          onClick={() => {
+            window.open(
+              "https://api.whatsapp.com/send?phone=55819888021",
+              "_blank"
+            );
+          }}
+        >
+          <span className="green-text">Entrar em contato</span>
+          <span className="icon ml-10">
+            <i className="fab fa-whatsapp green-text"></i>
+          </span>
+        </a>
       </div>
       <div className="right-bar">
         <div className="social-text fz-13">
-          <span className="text">Follow Us</span>
-          <a href="#0">Fa.</a>
-          <i>/</i>
-          <a href="#0">Tw.</a>
-          <i>/</i>
-          <a href="#0">Be.</a>
+          <span className="text ">Siga a gente</span>
+          <a
+            onClick={() => {
+              window.open("https://www.instagram.com/engeconrecife/", "_blank");
+            }}
+            className="pointer"
+          >
+            Instagram
+          </a>
+          <i className="fab fa-instagram"></i>
         </div>
       </div>
     </div>
