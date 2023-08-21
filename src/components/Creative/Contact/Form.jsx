@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -12,19 +13,19 @@ const Form = () => {
 
   const validateForm = (formValues) => {
     if (!formValues.name || !formValues.email || !formValues.message) {
-      setErrMessage("Please fill in all fields");
+      setErrMessage("Por favor preencha todos os campos");
       return false;
     }
     if (formValues.name.length < 5) {
-      setErrMessage("Name must be at least 5 characters");
+      setErrMessage("O nome deve ter pelo menos 5 caracteres");
       return false;
     }
-    if (formValues.subject.length < 10) {
-      setErrMessage("Subject must be at least 10 characters");
+    if (formValues.subject.length < 5) {
+      setErrMessage("O assunto deve ter pelo menos 5 caracteres");
       return false;
     }
     if (formValues.message.length < 10) {
-      setErrMessage("Message must be at least 10 characters");
+      setErrMessage("A mensagem deve ter pelo menos 10 caracteres");
       return false;
     }
     if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(formValues.email)) {
@@ -41,17 +42,37 @@ const Form = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = async (values) => {
+    const router = useRouter();
+    values.preventDefault();
 
     //= Validate Form
     if (!validateForm(formData)) return;
+    await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    }).then((res) => {
+      console.log(res, "response economy");
+      setFormData({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+    });
+    router.push({
+      pathname: "/home-main",
+    });
 
     //= Clear Error Message
     setErrMessage("");
 
     //= Sumbit The Form
-    document.forms[0].submit();
+    // document.forms[0].submit();
   };
 
   return (
