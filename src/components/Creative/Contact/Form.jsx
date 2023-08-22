@@ -69,6 +69,7 @@ const Form = () => {
         name: "",
         email: "",
         phoneNumber: "",
+        company: "",
         subject: "",
         message: "",
       });

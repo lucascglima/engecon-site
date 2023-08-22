@@ -1,8 +1,8 @@
 export default async function (req, res) {
   let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
-    host: "imap.umbler.com",
-    port: 993,
+    host: "smtp.umbler.com",
+    port: 587,
     auth: {
       user: process.env.NEXT_PUBLIC_USER,
       pass: process.env.NEXT_PUBLIC_CODE,
