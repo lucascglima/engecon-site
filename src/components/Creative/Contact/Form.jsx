@@ -64,7 +64,7 @@ const Form = () => {
 
       body: JSON.stringify(formData),
     }).then((res) => {
-      console.log(res, "response economy");
+      console.log(res, "response contact");
       setFormData({
         name: "",
         email: "",

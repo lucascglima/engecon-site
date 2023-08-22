@@ -1,8 +1,8 @@
 export default async function (req, res) {
   let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
-    host: "smtp.umbler.com",
-    port: 587,
+    host: "imap.umbler.com",
+    port: 993,
     auth: {
       user: process.env.NEXT_PUBLIC_USER,
       pass: process.env.NEXT_PUBLIC_CODE,
@@ -201,7 +201,7 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.trenergiasolar.eco.br/img/logo.png" alt="Engecon Engenharia" >
+            <img src="https://www.engeconrecife.com.br/img/logo-preta.svg" alt="Engecon Engenharia">
             <h1 class="email-heading">Obrigado por nos contatar!</h1>
         </div>
         <div class="email-message">
