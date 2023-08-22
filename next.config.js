@@ -2,13 +2,14 @@
 const path = require("path");
 
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   sassOptions: {
     includePaths: [path.join(__dirname, "css")],
   },
-  trailingSlash: true,
+  allowedContentTypes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+  trailingSlash: false,
   devIndicators: {
-    buildActivity: false,
+    buildActivity: true,
   },
   eslint: {
     ignoreDuringBuilds: true,

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
@@ -14,14 +14,23 @@ const Footer = () => {
                 </a>
               </div>
               <div className="text">
-                <p>We create digital experiences for brands and companies by using technology.</p>
+                <p>
+                  We create digital experiences for brands and companies by
+                  using technology.
+                </p>
               </div>
               <div className="social circle-bord mt-30">
                 <ul className="rest horizontal-link">
                   <li>
-                    <a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/"><i className="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/">
+                      <i className="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.twitter.com/">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/">
+                      <i className="fab fa-youtube"></i>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -50,7 +59,9 @@ const Footer = () => {
             <div className="clumn">
               <h5 className="title fw-600 fz-20 mb-30">Office</h5>
               <ul className="address">
-                <li className="adrs mb-15">Germany — 785 15h Street, Office 478 Berlin, De 81566</li>
+                <li className="adrs mb-15">
+                  Germany — 785 15h Street, Office 478 Berlin, De 81566
+                </li>
                 <li className="eml underline mb-15">
                   <a href="#0">Info-Support@Gmail.com</a>
                 </li>
@@ -70,7 +81,9 @@ const Footer = () => {
                       <img src="img/blog/2.jpg" alt="" />
                     </div>
                     <div className="cont">
-                      <h6 className="fz-16 line-height-28">How to check the website before releasing it?</h6>
+                      <h6 className="fz-16 line-height-28">
+                        How to check the website before releasing it?
+                      </h6>
                     </div>
                   </a>
                 </li>
@@ -80,7 +93,9 @@ const Footer = () => {
                       <img src="img/blog/3.jpg" alt="" />
                     </div>
                     <div className="cont">
-                      <h6 className="fz-16 line-height-28">How to check the website before releasing it?</h6>
+                      <h6 className="fz-16 line-height-28">
+                        How to check the website before releasing it?
+                      </h6>
                     </div>
                   </a>
                 </li>
@@ -109,15 +124,13 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="copyrights d-flex justify-content-end">
-                <p className="fz-13">© 2022 Ravo is Proudly Powered by <span className="underline"><a rel="noreferrer" href="https://themeforest.net/user/themescamp" target="_blank">ThemesCamp</a></span></p>
-              </div>
+              <div className="copyrights d-flex justify-content-end"></div>
             </div>
           </div>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

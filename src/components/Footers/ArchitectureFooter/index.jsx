@@ -1,17 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link';
+import Link from "next/link";
 
 const Footer = ({ hideTop }) => {
   return (
     <footer className="sub-bg">
-      <div className={`container ${hideTop ? '':'pt-100'}`}>
-        {
-          hideTop ? null : (
+      <div className={`container ${hideTop ? "" : "pt-100"}`}>
+        {hideTop ? null : (
           <div className="row">
             <div className="col-lg-9">
               <div className="cont">
-                <h6 className="sub-title fw-200 yellow-green-color mb-30">Get In Touch</h6>
-                <h2>Want to make the interior of your home more extraordinary?</h2>
+                <h6 className="sub-title fw-200 yellow-green-color mb-30">
+                  Get In Touch
+                </h6>
+                <h2>
+                  Want to make the interior of your home more extraordinary?
+                </h2>
               </div>
             </div>
             <div className="col-lg-3 valign">
@@ -25,9 +28,8 @@ const Footer = ({ hideTop }) => {
               </div>
             </div>
           </div>
-          )
-        }
-        <div className={`sub-f ${hideTop ? '':'mt-80'}`}>
+        )}
+        <div className={`sub-f ${hideTop ? "" : "mt-80"}`}>
           <div className="row">
             <div className="col-md-3">
               <div className="logo">
@@ -39,20 +41,13 @@ const Footer = ({ hideTop }) => {
               </div>
             </div>
             <div className="col-md-9">
-              <div className="copyrights d-flex justify-content-end">
-                <p>
-                  © 2022 Ravo is Proudly Powered by
-                  <span className="underline">
-                    <a href="https://themeforest.net/user/themescamp" rel="noreferrer" target="_blank" className="yellow-green-color ms-1">ThemesCamp</a>
-                  </span>
-                </p>
-              </div>
+              <div className="copyrights d-flex justify-content-end"></div>
             </div>
           </div>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
