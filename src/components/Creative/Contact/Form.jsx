@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
-
+import InputMask from "react-input-mask";
 const Form = () => {
+  const [phoneNumber, setPhoneNumber] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phoneNumber: "",
     subject: "",
     message: "",
   });
@@ -54,12 +56,14 @@ const Form = () => {
         Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
       },
+
       body: JSON.stringify(formData),
     }).then((res) => {
       console.log(res, "response economy");
       setFormData({
         name: "",
         email: "",
+        phoneNumber: "",
         subject: "",
         message: "",
       });
@@ -112,6 +116,19 @@ const Form = () => {
                       required="required"
                       onChange={handleChange}
                       value={formData.email}
+                    />
+                  </div>
+                  <div className="form-group mb-30">
+                    <InputMask
+                      id="form_phoneNumber"
+                      type="tel"
+                      name="phoneNumber"
+                      required="required"
+                      maskPlaceholder={null}
+                      mask="(99) 99999-9999"
+                      placeholder="Telefone (Whatsapp)"
+                      value={formData.phoneNumber}
+                      onChange={handleChange}
                     />
                   </div>
 
