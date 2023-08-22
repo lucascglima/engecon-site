@@ -69,7 +69,7 @@ const Form = () => {
     // });
 
     //= Clear Error Message
-    // setErrMessage("");
+    setErrMessage("");
 
     //= Sumbit The Form
     // document.forms[0].submit();
