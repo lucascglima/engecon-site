@@ -202,8 +202,8 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.engeconrecife.com.br/img/logo-preta.png" alt="Engecon Engenharia">
-            <h1 class="email-heading">Obrigado por nos contatar!</h1>
+            <img src="https://www.engeconrecife.com.br/img/logo-preta.svg" alt="Engecon Engenharia">
+            <h1 class="email-heading">Obrigado por nos contatar a ENGECON ENGENHARIA!</h1>
         </div>
         <div class="email-message">
             <p>Prezado ${req.body.name},</p>
@@ -217,12 +217,6 @@ export default async function (req, res) {
     </div>
   </body>
   </html>`,
-    attachments: [
-      {
-        filename: "logo-engecon.png",
-        path: "https://www.engeconrecife.com.br/img/logo-preta.png",
-      },
-    ],
   };
 
   let infoClient = await transporter.sendMail(mailDataClient);
