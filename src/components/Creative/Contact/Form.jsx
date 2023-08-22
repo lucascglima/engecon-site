@@ -6,6 +6,7 @@ const Form = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    company: "",
     phoneNumber: "",
     subject: "",
     message: "",
@@ -23,6 +24,10 @@ const Form = () => {
       return false;
     }
     if (formValues.subject.length < 5) {
+      setErrMessage("O assunto deve ter pelo menos 5 caracteres");
+      return false;
+    }
+    if (formValues.company.length < 5) {
       setErrMessage("O assunto deve ter pelo menos 5 caracteres");
       return false;
     }
@@ -109,6 +114,18 @@ const Form = () => {
 
                   <div className="form-group mb-30">
                     <input
+                      id="form_subject"
+                      type="text"
+                      name="subject"
+                      placeholder="Assunto"
+                      required="required"
+                      onChange={handleChange}
+                      value={formData.subject}
+                    />
+                  </div>
+
+                  <div className="form-group mb-30">
+                    <input
                       id="form_email"
                       type="email"
                       name="email"
@@ -134,13 +151,13 @@ const Form = () => {
 
                   <div className="form-group">
                     <input
-                      id="form_subject"
+                      id="form_company"
                       type="text"
-                      name="subject"
+                      name="company"
                       placeholder="Empresa"
                       required="required"
                       onChange={handleChange}
-                      value={formData.subject}
+                      value={formData.company}
                     />
                   </div>
                 </div>
