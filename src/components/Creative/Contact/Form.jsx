@@ -43,7 +43,7 @@ const Form = () => {
   };
 
   const handleSubmit = async (values) => {
-    const router = useRouter();
+    // const router = useRouter();
     values.preventDefault();
 
     //= Validate Form
@@ -64,12 +64,12 @@ const Form = () => {
         message: "",
       });
     });
-    router.push({
-      pathname: "/home-main",
-    });
+    // router.push({
+    //   pathname: "/home-main",
+    // });
 
     //= Clear Error Message
-    setErrMessage("");
+    // setErrMessage("");
 
     //= Sumbit The Form
     // document.forms[0].submit();

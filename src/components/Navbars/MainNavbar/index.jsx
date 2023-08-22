@@ -342,7 +342,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
               </ul>
             </li> */}
             <li className="nav-item">
-              <Link href="/home-main">
+              <Link href="/home">
                 <a className="nav-link">Home</a>
               </Link>
             </li>

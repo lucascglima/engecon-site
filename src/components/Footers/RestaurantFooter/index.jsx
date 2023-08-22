@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-6">
               {/* <div className="copyrights d-flex justify-content-end">
-                <p className="fz-13">© 2022 Ravo is Proudly Powered by <span className="underline"><a href="https://themeforest.net/user/themescamp" rel="noreferrer" target="_blank" className="main-color">ThemesCamp</a></span></p>
+                <p className="fz-13">© 2022 engecon is Proudly Powered by <span className="underline"><a href="https://themeforest.net/user/themescamp" rel="noreferrer" target="_blank" className="main-color">ThemesCamp</a></span></p>
               </div> */}
             </div>
           </div>

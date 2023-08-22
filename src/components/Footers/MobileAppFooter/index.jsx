@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link';
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -10,19 +10,34 @@ const Footer = () => {
             <div className="col-lg-5 valign">
               <div className="cont pb-80">
                 <div className="fz-12 ls2 text-u mb-10">
-                  <span className="gr-orange-text">Download Ravo App</span>
+                  <span className="gr-orange-text">Download engecon App</span>
                 </div>
-                <h2 className="mb-20 fw-500">We available on store download now.</h2>
-                <p>Morbi sagittis hendrt nulla ultricies. Cras en diam ips elementum pretium hendrerit ultricies.</p>
+                <h2 className="mb-20 fw-500">
+                  We available on store download now.
+                </h2>
+                <p>
+                  Morbi sagittis hendrt nulla ultricies. Cras en diam ips
+                  elementum pretium hendrerit ultricies.
+                </p>
 
                 <div className="download-button mt-40">
-                  <a href="#0" className="butn butn-lg butn-rounded down-butn bg-white mr-10">
+                  <a
+                    href="#0"
+                    className="butn butn-lg butn-rounded down-butn bg-white mr-10"
+                  >
                     <span>Apple Store</span>
-                    <span className="icon ml-10"><i className="fab fa-apple"></i></span>
+                    <span className="icon ml-10">
+                      <i className="fab fa-apple"></i>
+                    </span>
                   </a>
-                  <a href="#0" className="butn butn-lg butn-rounded down-butn bord-white">
+                  <a
+                    href="#0"
+                    className="butn butn-lg butn-rounded down-butn bord-white"
+                  >
                     <span>Goole play</span>
-                    <span className="icon ml-10"><i className="fab fa-google-play"></i></span>
+                    <span className="icon ml-10">
+                      <i className="fab fa-google-play"></i>
+                    </span>
                   </a>
                 </div>
               </div>
@@ -49,13 +64,19 @@ const Footer = () => {
               <div className="links text-center">
                 <ul className="rest">
                   <li>
-                    <a href="#0" data-scroll-nav="0">Home</a>
+                    <a href="#0" data-scroll-nav="0">
+                      Home
+                    </a>
                   </li>
                   <li>
-                    <a href="#0" data-scroll-nav="1">About</a>
+                    <a href="#0" data-scroll-nav="1">
+                      About
+                    </a>
                   </li>
                   <li>
-                    <a href="#0" data-scroll-nav="2">Services</a>
+                    <a href="#0" data-scroll-nav="2">
+                      Services
+                    </a>
                   </li>
                   <li>
                     <Link href="/contact-arch">
@@ -67,7 +88,12 @@ const Footer = () => {
             </div>
             <div className="col-lg-3 d-flex justify-content-end">
               <div className="copyrights">
-                <p className="fz-14">Made By <a href="#0" className="gr-orange-text">UI-ThemeZ</a></p>
+                <p className="fz-14">
+                  Made By{" "}
+                  <a href="#0" className="gr-orange-text">
+                    UI-ThemeZ
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -75,7 +101,7 @@ const Footer = () => {
       </div>
       <div className="circle-blur"></div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
