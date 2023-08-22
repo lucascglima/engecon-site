@@ -50,6 +50,10 @@ export default async function (req, res) {
             text-align: center;
             margin-bottom: 30px;
         }
+           img {
+            max-width: 300px;
+        }
+
 
         /* Email heading styles */
         .email-heading {
@@ -153,6 +157,9 @@ export default async function (req, res) {
             text-align: center;
             margin-bottom: 30px;
         }
+        img {
+            max-width: 300px;
+        }
 
         /* Email heading styles */
         .email-heading {
@@ -193,7 +200,7 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.trenergiasolar.eco.br/img/logo.png" alt="Engecon Engenharia">
+            <img src="https://www.trenergiasolar.eco.br/img/logo.png" alt="Engecon Engenharia" >
             <h1 class="email-heading">Obrigado por nos contatar!</h1>
         </div>
         <div class="email-message">
@@ -212,5 +219,5 @@ export default async function (req, res) {
 
   let infoClient = await transporter.sendMail(mailDataClient);
 
-  res.send({ toTR: info, toClient: infoClient });
+  return res.send({ toTR: info, toClient: infoClient });
 }
