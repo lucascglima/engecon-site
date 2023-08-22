@@ -202,7 +202,7 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.engeconrecife.com.br/img/logo-preta.svg" alt="Engecon Engenharia">
+            <img src="https://www.engeconrecife.com.br/img/logo-preta.png" alt="Engecon Engenharia">
             <h1 class="email-heading">Obrigado por nos contatar!</h1>
         </div>
         <div class="email-message">
