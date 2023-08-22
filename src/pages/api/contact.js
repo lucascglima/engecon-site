@@ -220,8 +220,7 @@ export default async function (req, res) {
     attachments: [
       {
         filename: "logo-engecon.png",
-        path: __dirname + "/img/logo-preta.png",
-        cid: "logo-engecon.png",
+        path: "https://www.engeconrecife.com.br/img/logo-preta.png",
       },
     ],
   };
