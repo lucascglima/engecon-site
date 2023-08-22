@@ -1,5 +1,3 @@
-import { NextResponse } from "next/server";
-
 export default async function (req, res) {
   let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
@@ -93,7 +91,7 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.trenergiasolar.eco.br/img/logo.png" alt="TR Energia solar">
+            <img src="https://www.engeconrecife.com.br/img/logo-preta.svg" alt="Engecon Engenharia">
             <h1 class="email-heading">Recebemos um contato pelo site</h1>
         </div>
         <div class="email-message">
@@ -105,7 +103,7 @@ export default async function (req, res) {
               ${req.body.message}
         </p>  
             <div class="email-signature">
-                <p class="email-signature-text">TR Energia solar</p>
+                <p class="email-signature-text">ENGECON ENGENHARIA</p>
             </div>
         </div>
     </div>
@@ -213,5 +211,6 @@ export default async function (req, res) {
   };
 
   let infoClient = await transporter.sendMail(mailDataClient);
-  return NextResponse.json({ toTR: info, toClient: infoClient });
+
+  res.send({ toTR: info, toClient: infoClient });
 }

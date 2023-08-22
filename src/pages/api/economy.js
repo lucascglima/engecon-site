@@ -8,6 +8,7 @@ export default async function (req, res) {
       pass: process.env.NEXT_PUBLIC_CODE,
     },
   });
+  console.log(transporter);
 
   const mailData = {
     from: process.env.NEXT_PUBLIC_USER,
