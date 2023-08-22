@@ -89,6 +89,10 @@ const Form = () => {
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-lg-11">
+          <svg
+            src="https://www.engeconrecife.com.br/img/logo-preta.svg"
+            alt="Engecon Engenharia"
+          ></svg>
           <div className="box-shadow to-up">
             <form id="contact-form" method="post" action="contact.php">
               {errMessage && <div className="messages">{errMessage}</div>}
