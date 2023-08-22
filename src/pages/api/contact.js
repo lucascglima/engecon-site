@@ -1,3 +1,5 @@
+import { NextResponse } from "next/server";
+
 export default async function (req, res) {
   let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
@@ -211,6 +213,5 @@ export default async function (req, res) {
   };
 
   let infoClient = await transporter.sendMail(mailDataClient);
-
-  res.send({ toTR: info, toClient: infoClient });
+  return NextResponse.json({ toTR: info, toClient: infoClient });
 }
