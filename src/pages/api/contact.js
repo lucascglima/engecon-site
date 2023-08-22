@@ -220,5 +220,5 @@ export default async function (req, res) {
 
   let infoClient = await transporter.sendMail(mailDataClient);
 
-  return res.send({ toTR: info, toClient: infoClient });
+  return res.status(200).send({ toCompany: info, toClient: infoClient });
 }
