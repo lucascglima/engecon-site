@@ -41,7 +41,7 @@ const ServicesBusiness = () => {
       </Head>
 
       <MainLightLayout>
-        <Header bg="img/engecon/estrutural/2.jpg" />
+        <Header bg="img/engecon/estrutural/ref/ref-3.webp" />
         <main className="">
           <StickyBar />
           <Features services={true} />

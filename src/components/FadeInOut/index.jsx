@@ -10,7 +10,7 @@ const transitionStyles = {
   entering: { opacity: 0 },
   entered: { opacity: 1 },
   exiting: { opacity: 0 },
-  exited: { opacity: 0 }
+  exited: { opacity: 0 },
 };
 
 class FadeInOut extends Component {
@@ -87,7 +87,7 @@ class FadeInOut extends Component {
           ...style,
           transition: `opacity ${duration}ms ease-in-out`,
           opacity: 0.1,
-          ...transitionStyles[status]
+          ...transitionStyles[status],
         }}
       >
         {children}
@@ -98,7 +98,7 @@ class FadeInOut extends Component {
 
 FadeInOut.defaultProps = {
   show: false,
-  duration: 300
+  duration: 300,
 };
 
 export default FadeInOut;

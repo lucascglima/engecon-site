@@ -49,7 +49,6 @@ const Portfolio = () => {
             {portfolio.images.map((image, idx) => (
               <div
                 className={`col-lg-4 col-md-6 items ${image.filter} wow fadeInUp`}
-                data-wow-delay=".4s"
                 key={idx}
               >
                 <div className="item-img">

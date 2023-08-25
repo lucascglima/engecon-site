@@ -6,7 +6,6 @@ import ProgressScroll from "../components/Progress-Scroll";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  React.useLayoutEffect = React.useEffect;
   return (
     <>
       <Head>

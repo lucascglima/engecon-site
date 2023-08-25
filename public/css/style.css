@@ -2355,7 +2355,7 @@ img.left {
 }
 
 .dark-blue-bg {
-  background: #233d62;
+  background: #233d62 !important;
 }
 
 .dark-blue-color {
@@ -6159,6 +6159,7 @@ header.simple-header .path a:after {
 
 .services .shadw .tag a {
   padding: 5px 15px;
+  margin: 4px;
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -7667,7 +7668,7 @@ header.simple-header .path a:after {
   line-height: 120px;
   text-align: center;
   color: #000;
-  background: #f5f5dc;
+  background: #f5f5dc !important;
   border-radius: 50%;
   font-size: 30px;
 }
@@ -10949,7 +10950,15 @@ body.index-main .bg-gray {
     justify-content: flex-start !important;
   }
   .main-footer .container.pb-80 {
-    padding-bottom: 30px !important;
+    padding-bottom: 50px !important;
+  }
+  .col-footer-main {
+    gap: 8px !important;
+    margin-bottom: 32px !important;
+    display: inline-block;
+    width: 90vw;
+    gap: 8px;
+    margin-bottom: 10px;
   }
 }
 
@@ -10982,10 +10991,12 @@ body.index-main .bg-gray {
   .portfolio .filtering .filter {
     padding: 0;
   }
+
   .row-footer {
-    flex-direction: column !important;
-    gap: 32px;
+    flex-direction: unset;
+    gap: 0;
     padding-left: 24px;
+    display: inline-grid;
   }
   .sm-mb10 {
     margin-bottom: 10px;

@@ -12,9 +12,9 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
 
   return (
     <footer className={footerClass} ref={footerRef}>
-      <div className="container pt-80 pb-80">
+      <div className="container pt-80 pb-80 main-footer">
         <div className="row row-footer">
-          <div className="col col-footer">
+          <div className="col col-footer col-footer-main">
             <h5>Serviços</h5>
             <p>
               <Link href="/impermeabilization">
@@ -32,7 +32,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
               </Link>
             </p>
           </div>
-          <div className="col col-footer">
+          <div className="col col-footer col-footer-main">
             <h5>Fale conosco</h5>
             <p>
               <strong>Telefone:</strong> (81) 3127-2701
@@ -55,10 +55,11 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
             </p>
             <p></p>
           </div>
-          <div className="col col-footer">
+          <div className="col col-footer col-footer-main">
             <h5>Siga nossas redes</h5>
-            <div className="flex text-center">
+            <div className="flex text-center mt-10">
               <a
+                className="mr-10"
                 onClick={() => {
                   window.open(
                     "https://api.whatsapp.com/send?phone=55819888021",
@@ -72,6 +73,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
             </div>
             <div className="flex">
               <a
+                className="mr-10"
                 onClick={() => {
                   window.open(
                     "https://www.instagram.com/engeconrecife/",

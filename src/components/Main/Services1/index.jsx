@@ -1,7 +1,32 @@
 import Link from "next/link";
 import services from "../../../data/main/services1.json";
 
+import Icon from "@mdi/react";
+import {
+  mdiFormatPaint,
+  mdiOfficeBuildingCogOutline,
+  mdiHammerScrewdriver,
+} from "@mdi/js";
 const Services = () => {
+  services.forEach((el, i) => {
+    if (i == 0) {
+      el.icon = (
+        <Icon path={mdiHammerScrewdriver} size={2} className="blue-text" />
+      );
+    }
+    if (i == 1) {
+      el.icon = (
+        <Icon
+          path={mdiOfficeBuildingCogOutline}
+          size={2}
+          className="blue-text"
+        />
+      );
+    }
+    if (i == 2) {
+      el.icon = <Icon path={mdiFormatPaint} size={2} className="blue-text" />;
+    }
+  });
   return (
     <section className="services section-padding">
       <div className="container">
@@ -33,21 +58,23 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row ">
           {services.map((service) => (
-            <div className="col-lg-4" key={service.id}>
+            <div className="col-lg-4 " key={service.id}>
               <div
-                className="item shadw bord wow fadeInUp"
+                className="item shadw bord wow fadeInUp   "
                 data-wow-delay=".1s"
               >
-                <div className="icon fz-50 mb-15 rest">
-                  <span className={`${service.icon} gr-purple-red-text`}></span>
-                </div>
-                <h6 className="mb-15">{service.title}</h6>
+                <div className="icon fz-50 mb-15 rest">{service.icon}</div>
+                <h6 className="mb-15  fw-900">{service.title}</h6>
                 <p>{service.detials}</p>
                 <div className="tag mt-30">
                   {service.tags.map((tag, i) => (
-                    <a href="#0" className="me-1" key={i}>
+                    <a
+                      href="#0"
+                      className="me-1 green-text dark-blue-bg fw-600"
+                      key={i}
+                    >
                       <span>{tag}</span>
                     </a>
                   ))}

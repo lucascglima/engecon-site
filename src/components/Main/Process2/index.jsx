@@ -24,7 +24,7 @@ const Process = () => {
               >
                 <div className="step mb-30">
                   <div className="numb">{item.numb}</div>
-                  <span className={`icon ${item.icon} dark-blue-bg`}></span>
+                  <span className={`icon ${item.icon} `}></span>
                 </div>
                 <h6 className="mb-10 fw-700">{item.title}</h6>
                 <p>{item.details}</p>

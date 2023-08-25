@@ -1,8 +1,7 @@
-import { useState } from "react";
+import { useState, createRef } from "react";
 import { useRouter } from "next/router";
 import InputMask from "react-input-mask";
 const Form = () => {
-  const [phoneNumber, setPhoneNumber] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -146,7 +145,6 @@ const Form = () => {
                       type="tel"
                       name="phoneNumber"
                       required="required"
-                      maskPlaceholder={null}
                       mask="(99) 99999-9999"
                       placeholder="Telefone (Whatsapp)"
                       value={formData.phoneNumber}

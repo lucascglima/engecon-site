@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "icon": "fa-solid fa-business-time",
+    "icon": "mdiOfficeBuildingCog",
     "title": "Experiência",
     "details": "+ de 40 anos de experiência"
   },
   {
     "id": 2,
-    "icon": "fa-regular fa-square-check",
+    "icon": "mdiCheckDecagram",
     "title": "Qualidade",
     "details": "Pontualidade e qualidade "
   },
   {
     "id": 3,
-    "icon": "fa-solid fa-shield-halved",
+    "icon": "mdiSecurity",
     "title": "Credibilidade",
     "details": "+ de 200 clientes satisfeitos"
   }
