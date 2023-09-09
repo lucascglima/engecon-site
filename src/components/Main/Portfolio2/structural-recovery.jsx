@@ -59,7 +59,7 @@ const Portfolio = () => {
                     <img src={image.url} alt="image" />
                     <div className="item-img-overlay green-bg radius text-white justify-center">
                       <span className="text-center see-more text-light fz-20">
-                        Saiba mais
+                        {image.details}
                       </span>
                       <i className="fas fa-arrow-right icon text-light fz-20"></i>
                     </div>
