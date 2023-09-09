@@ -10963,9 +10963,9 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 767px) {
-  .pg-header-bus.pg-header-bus {
+  .pg-header-services {
     background-attachment: unset !important;
-    background-position: center !important;
+    background-position: center !important; 
   }
   .portfolio .gallery .items .next-ctrl,
   .prev-ctrl {

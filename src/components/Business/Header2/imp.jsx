@@ -8,7 +8,7 @@ const Header = ({ bg }) => {
 
   return (
     <header
-      className="pg-header-bus bg-img parallaxie valign"
+      className="pg-header-bus bg-img parallaxie valign pg-header-services "
       data-background={bg}
     >
       <div className="container">
