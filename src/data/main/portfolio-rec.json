@@ -27,21 +27,21 @@
   ],
   "images": [
     {
-      "url": "img/engecon/estrutural/novas/8.webp",
+      "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Infiltrações",
       "title": "Diagnóstico",
       "details": "Identifique a fonte da infiltração, que pode variar de rachaduras nas paredes a problemas de telhado ou encanamento.",
       "filter": "inf"
     },
     {
-      "url": "img/engecon/estrutural/novas/9.webp",
+      "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Infiltrações",
       "title": "Solução",
       "details": "Implemente medidas de impermeabilização para evitar futuras infiltrações e conserte qualquer dano causado pela água.",
       "filter": "inf"
     },
     {
-      "url": "img/engecon/estrutural/novas/10.webp",
+      "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Trincas",
       "title": "Avaliação",
       "details": "Detecte a extensão das trincas e determine se são superficiais ou estruturais.",
@@ -62,7 +62,7 @@
       "filter": "des"
     },
     {
-      "url": "img/engecon/estrutural/slide 2.webp",
+      "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Subsolo",
       "title": "Reparo",
       "details": "Execute reparos de impermeabilização, reforço estrutural ou drenagem para resolver problemas no subsolo..",
