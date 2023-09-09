@@ -30,42 +30,42 @@
       "url": "img/engecon/enviadas/slide-1.jpg",
       "type": "Elevador",
       "title": "Aplicação de Manta Asfáltica",
-      "details": "Ideal para superfícies verticais, devido à sua resistência.",
+      "details": "Ideal para superfícies verticais, devido à sua resistência",
       "filter": "ele"
     },
     {
       "url": "img/engecon/enviadas/slide-2.webp",
       "type": "Laje",
       "title": "Aplicação de Primer",
-      "details": "Adiciona uma camada de aderência.",
+      "details": "Adiciona uma camada de aderência",
       "filter": "laj"
     },
     {
       "url": "img/engecon/enviadas/slide-3.webp",
       "type": "Laje",
       "title": "Aplicação de Manta Asfáltica",
-      "details": "Protege contra água e evita infiltrações.",
+      "details": "Protege contra água e evita infiltrações",
       "filter": "laj"
     },
     {
       "url": "img/engecon/enviadas/slide-4.webp",
       "type": "Cobertura",
       "title": "Aplicação de Membrana de Poliuretano",
-      "details": "Oferece proteção contra chuva e sol.",
+      "details": "Oferece proteção contra chuva e sol",
       "filter": "cob"
     },
     {
       "url": "img/engecon/enviadas/slide 4.webp",
       "type": "Subsolo",
       "title": "Aplicação de Manta Asfáltica",
-      "details": "Ideal para Subsolo devido à sua alta resistência.",
+      "details": "Ideal para Subsolo devido à sua alta resistência",
       "filter": "sub"
     },
     {
       "url": "img/engecon/enviadas/slide-1.webp",
       "type": "Piscina",
       "title": "Aplicação de Argamassa Polimérica",
-      "details": "Cria uma camada impermeável, ideal para Piscina.",
+      "details": "Cria uma camada impermeável, ideal para Piscina",
       "filter": "pis"
     }
   ]

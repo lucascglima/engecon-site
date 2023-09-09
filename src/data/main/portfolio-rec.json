@@ -30,42 +30,42 @@
       "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Infiltrações",
       "title": "Diagnóstico",
-      "details": "Identifique a fonte da infiltração, que pode variar de rachaduras nas paredes a problemas de telhado ou encanamento.",
+      "details": "Identifique a fonte da infiltração, que pode variar de rachaduras nas paredes a problemas de telhado ou encanamento",
       "filter": "inf"
     },
     {
       "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Infiltrações",
       "title": "Solução",
-      "details": "Implemente medidas de impermeabilização para evitar futuras infiltrações e conserte qualquer dano causado pela água.",
+      "details": "Implemente medidas de impermeabilização para evitar futuras infiltrações e conserte qualquer dano causado pela água",
       "filter": "inf"
     },
     {
       "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Trincas",
       "title": "Avaliação",
-      "details": "Detecte a extensão das trincas e determine se são superficiais ou estruturais.",
+      "details": "Detecte a extensão das trincas e determine se são superficiais ou estruturais",
       "filter": "tri"
     },
     {
       "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Deformações",
       "title": "Inspeção",
-      "details": "Identifique quais partes da estrutura estão deformadas e a gravidade da deformação..",
+      "details": "Identifique quais partes da estrutura estão deformadas e a gravidade da deformação",
       "filter": "def"
     },
     {
       "url": "img/engecon/estrutural/slide 2.webp",
       "type": "Desgaste",
       "title": "Recuperação",
-      "details": "Realize a substituição ou reforço dos materiais danificados e implemente manutenção preventiva para reduzir o desgaste futuro.",
+      "details": "Realize a substituição ou reforço dos materiais danificados e implemente manutenção preventiva para reduzir o desgaste futuro",
       "filter": "des"
     },
     {
       "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Subsolo",
       "title": "Reparo",
-      "details": "Execute reparos de impermeabilização, reforço estrutural ou drenagem para resolver problemas no subsolo..",
+      "details": "Execute reparos de impermeabilização, reforço estrutural ou drenagem para resolver problemas no subsolo",
       "filter": "sub"
     }
   ]

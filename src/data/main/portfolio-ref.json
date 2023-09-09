@@ -26,7 +26,7 @@
       "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Vigas",
       "title": "Avaliação",
-      "details": "Avaliação completa das vigas existentes é necessária para identificar sinais de desgaste ou danos.",
+      "details": "Avaliação completa das vigas existentes é necessária para identificar sinais de desgaste ou danos",
       "filter": "vig"
     },
     {
@@ -47,7 +47,7 @@
       "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Pilares",
       "title": "Diagnóstico:",
-      "details": "Os pilares são inspecionados para verificar rachaduras, inclinações ou outros problemas estruturais.",
+      "details": "Os pilares são inspecionados para verificar rachaduras, inclinações ou outros problemas estruturais",
       "filter": "pil"
     },
     {
@@ -61,14 +61,14 @@
       "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Fundações",
       "title": "Avaliação",
-      "details": "As fundações são examinadas para verificar a estabilidade e integridade.",
+      "details": "As fundações são examinadas para verificar a estabilidade e integridade",
       "filter": "fun"
     },
     {
       "url": "img/engecon/estrutural/slide 1.webp",
       "type": "Fundações",
       "title": "Execução",
-      "details": "Materiais de reforço são aplicados para melhorar a resistência das fundações.",
+      "details": "Materiais de reforço são aplicados para melhorar a resistência das fundações",
       "filter": "fun"
     }
   ]
