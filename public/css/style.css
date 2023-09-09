@@ -6773,12 +6773,8 @@ header.simple-header .path a:after {
   transform: translate(-50%);
 }
 .see-more-services {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-  -ms-transform: translate(-50%);
-  transform: translate(-50%);
+  top: 25% !important;
+  left: 50% !important;
 }
 
 .portfolio .gallery .items .cont {
@@ -10965,7 +10961,7 @@ body.index-main .bg-gray {
 @media screen and (max-width: 767px) {
   .pg-header-services {
     background-attachment: unset !important;
-    background-position: center !important; 
+    background-position: center !important;
   }
   .portfolio .gallery .items .next-ctrl,
   .prev-ctrl {
