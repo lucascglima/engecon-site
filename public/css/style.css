@@ -6772,10 +6772,7 @@ header.simple-header .path a:after {
   -ms-transform: translate(-50%);
   transform: translate(-50%);
 }
-.see-more-services {
-  top: 25% !important;
-  left: 50% !important;
-}
+
 
 .portfolio .gallery .items .cont {
   margin-top: 30px;
@@ -11201,6 +11198,12 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 480px) {
+  .see-more-services.see-more-services  {
+  top: 25% !important;
+  left: 50% !important;
+  height: 100%;
+  width: 100%;
+}
   .simple-head {
     text-align: center;
   }
