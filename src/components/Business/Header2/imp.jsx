@@ -3,14 +3,13 @@ import parallaxie from "../../../common/parallaxie";
 
 const Header = ({ bg }) => {
   useEffect(() => {
-    new parallaxie(".pg-header-bus.bg-img.parallaxie");
+    new parallaxie(".pg-header-bus .bg-img.parallaxie");
   }, []);
 
   return (
     <header
       className="pg-header-bus bg-img parallaxie valign"
       data-background={bg}
-      data-overlay-dark="5"
     >
       <div className="container">
         <div className="row justify-content-center">
