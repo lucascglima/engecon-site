@@ -11208,6 +11208,7 @@ body.index-main .bg-gray {
     text-align: center;
   }
   .portfolio .gallery .items {
+    min-height: 540px !important;
     padding: 0 15px;
     margin: 50px 0;
   }

@@ -5,11 +5,11 @@ import initIsotope from "../../../common/initIsotope";
 import portfolio from "../../../data/main/portfolio-ref.json";
 
 const Portfolio = () => {
-  useEffect(() => {
-    setTimeout(() => {
-      initIsotope();
-    }, 500);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     initIsotope();
+  //   }, 500);
+  // }, []);
 
   return (
     <section className="portfolio section-padding bg-gray">
@@ -46,7 +46,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="gallery min-30">
+        <div className="gallery">
           <div className="row">
             {portfolio.images.map((image, idx) => (
               <div

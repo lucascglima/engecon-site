@@ -46,7 +46,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="gallery min-30">
+        <div className="gallery">
           <div className="row">
             {portfolio.images.map((image, idx) => (
               <div
