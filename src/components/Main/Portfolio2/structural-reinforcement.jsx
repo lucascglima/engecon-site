@@ -59,10 +59,10 @@ const Portfolio = () => {
                   <a className="imago wow">
                     <img src={image.url} alt="image" />
                     <div className="item-img-overlay dark-blue-bg text-white justify-center">
-                      <span className="text-center see-more-services text-light fz-16">
+                      <span className="text-center see-more text-light fz-20">
                         {image.details}
                       </span>
-                      {/* <i className="fas fa-arrow-right icon text-light fz-20"></i> */}
+                      <i className="fas fa-arrow-right icon text-light fz-20"></i>
                     </div>
                   </a>
                   {/* </Link> */}
