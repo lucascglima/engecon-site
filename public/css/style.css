@@ -6773,7 +6773,6 @@ header.simple-header .path a:after {
   transform: translate(-50%);
 }
 
-
 .portfolio .gallery .items .cont {
   margin-top: 30px;
 }
@@ -11198,12 +11197,13 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 480px) {
-  .see-more-services.see-more-services  {
-  top: 25% !important;
-  left: 50% !important;
-  height: 100%;
-  width: 100%;
-}
+  .see-more-services.see-more-services {
+    top: 35% !important;
+    left: 50% !important;
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+  }
   .simple-head {
     text-align: center;
   }
