@@ -13,7 +13,7 @@ export default async function (req, res) {
   const mailData = {
     from: process.env.NEXT_PUBLIC_USER,
     to: process.env.NEXT_PUBLIC_USER,
-    subject: "Contato recebido - " + req.body.name,
+    subject: "Novo Contato de Reforço estrutural - " + req.body.name,
     html: `
     <!DOCTYPE html>
   <html lang="en">
@@ -97,9 +97,10 @@ export default async function (req, res) {
     <div class="email-container">
         <div class="email-header">
             <img src="https://www.engeconrecife.com.br/img/logo-preta.svg" alt="Engecon Engenharia">
-            <h1 class="email-heading">Recebemos um contato pelo site</h1>
+            <h1 class="email-heading">Recebemos um novo contato via website. Aqui estão os detalhes:</h1>
         </div>
         <div class="email-message">
+              Contato feito pela página de <strong>Reforço estrutural</strong><br/>
               Nome: <strong>${req.body.name}</strong> <br/>
               E-mail: <strong>${req.body.email}</strong> <br/>
               Telefone (Whatsapp): <strong>${req.body.phoneNumber}</strong> <br/>
@@ -121,7 +122,7 @@ export default async function (req, res) {
   const mailDataClient = {
     from: process.env.NEXT_PUBLIC_USER,
     to: req.body.email,
-    subject: "Engecon Engenharia - Contato recebido",
+    subject: "Engecon Engenharia, Agradecemos pelo seu contato",
     html: `
   <!DOCTYPE html>
   <html lang="en">
@@ -202,17 +203,17 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.engeconrecife.com.br/img/logo-preta.svg" alt="Engecon Engenharia">
             <h1 class="email-heading">Obrigado por nos contatar a ENGECON ENGENHARIA!</h1>
         </div>
         <div class="email-message">
-            <p>Prezado ${req.body.name},</p>
-            <p>Recebemos sua mensagem e agradecemos seu interesse em nossa empresa.  Nossa equipe irá analisar sua mensagem e retornaremos o mais breve possível.</p>
-            <p>Obrigado por nos considerar como seu parceiro em serviços de engenharia.</p>
-            <p>Atenciosamente,</p>
-            <div class="email-signature">
+            <p>Olá ${req.body.name},</p>
+            <p>Primeiramente, gostaríamos de expressar nossa gratidão por você ter escolhido entrar em contato conosco sobre nossos serviços de reforço estrutural. <br/> Com anos de experiência e expertise em engenharia, a Engecon Engenharia tem orgulho de ser uma referência no setor. Nossa trajetória é marcada pela excelência, inovação e, acima de tudo, comprometimento com a segurança e satisfação de nossos clientes.</p><br/>
+            <p>O reforço estrutural é essencial para garantir que edificações antigas ou que passaram por alguma alteração em sua estrutura original mantenham sua integridade e segurança. Utilizamos técnicas avançadas e materiais de ponta para garantir o reforço necessário, restaurando a confiabilidade da estrutura.<br/>
+             <p>Em breve, nossa equipe especializada entrará em contato para tratar do assunto que você nos apresentou e esclarecer quaisquer dúvidas. Até lá, saiba que sua estrutura está em mãos confiáveis.
+            <div class="email-signature"></p><br/>
                 <p class="email-signature-text">Engecon Engenharia</p>
-                    <a href="https://www.engeconrecife.com.br/">Acesso nosso site</a>
+                <div>
+                <a href="https://www.engeconrecife.com.br/">Acesso nosso site</a>
                 </div>
                 <div>
                 <a href="https://api.whatsapp.com/send?phone=55819888021">Entre em contato pelo nosso Whatsapp</a>

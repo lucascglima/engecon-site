@@ -6772,14 +6772,6 @@ header.simple-header .path a:after {
   -ms-transform: translate(-50%);
   transform: translate(-50%);
 }
-.see-more-services {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-  -ms-transform: translate(-50%);
-  transform: translate(-50%);
-}
 
 .portfolio .gallery .items .cont {
   margin-top: 30px;
@@ -10963,6 +10955,10 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 767px) {
+  .pg-header-services {
+    background-attachment: unset !important;
+    background-position: center !important;
+  }
   .portfolio .gallery .items .next-ctrl,
   .prev-ctrl {
     top: 70% !important;
@@ -11201,10 +11197,18 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 480px) {
+  .see-more-services.see-more-services {
+    top: 35% !important;
+    left: 50% !important;
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+  }
   .simple-head {
     text-align: center;
   }
   .portfolio .gallery .items {
+    min-height: 540px !important;
     padding: 0 15px;
     margin: 50px 0;
   }

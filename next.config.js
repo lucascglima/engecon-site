@@ -8,6 +8,9 @@ const nextConfig = {
   },
   allowedContentTypes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   trailingSlash: false,
+  experimental: {
+    forceSwcTransforms: true,
+  },
   devIndicators: {
     buildActivity: true,
   },

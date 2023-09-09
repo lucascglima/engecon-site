@@ -17,11 +17,6 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
           <div className="col col-footer col-footer-main">
             <h5>Serviços</h5>
             <p>
-              <Link href="/impermeabilization">
-                <a className="footer-link pointer">Impermeabilização</a>
-              </Link>
-            </p>
-            <p>
               <Link href="/structural-recovery">
                 <a className="footer-link pointer"> Recuperação estrutural</a>
               </Link>
@@ -29,6 +24,11 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
             <p>
               <Link href="/structural-reinforcement">
                 <a className="footer-link pointer"> Reforço estrutural</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="/impermeabilization">
+                <a className="footer-link pointer">Impermeabilização</a>
               </Link>
             </p>
           </div>

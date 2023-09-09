@@ -6,16 +6,16 @@ export default async function (req, res) {
     auth: {
       user: process.env.NEXT_PUBLIC_USER,
       pass: process.env.NEXT_PUBLIC_CODE,
+      secure: true,
     },
   });
-  console.log(transporter);
 
   const mailData = {
     from: process.env.NEXT_PUBLIC_USER,
     to: process.env.NEXT_PUBLIC_USER,
-    subject: "Solicitação de economia de energia - " + req.body.name,
+    subject: "Novo Contato de Recuperação estrutural - " + req.body.name,
     html: `
-  <!DOCTYPE html>
+    <!DOCTYPE html>
   <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -23,7 +23,7 @@ export default async function (req, res) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <title>Solicit</title>
+    <title>Contato recebido pelo site</title>
     <style>
         /* Email body styles */
         body {
@@ -51,6 +51,10 @@ export default async function (req, res) {
             text-align: center;
             margin-bottom: 30px;
         }
+           img {
+            max-width: 300px;
+        }
+
 
         /* Email heading styles */
         .email-heading {
@@ -92,31 +96,21 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.trenergiasolar.eco.br/img/logo.png" alt="TR Energia solar">
-            <h1 class="email-heading">Recebemos um contato pelo site</h1>
+            <img src="https://www.engeconrecife.com.br/img/logo-preta.svg" alt="Engecon Engenharia">
+            <h1 class="email-heading">Recebemos um novo contato via website. Aqui estão os detalhes:</h1>
         </div>
         <div class="email-message">
+              Contato feito pela página de <strong>Recuperação estrutural</strong><br/>
               Nome: <strong>${req.body.name}</strong> <br/>
-              Nome da empresa: <strong>${req.body.name}</strong> <br/>
               E-mail: <strong>${req.body.email}</strong> <br/>
-              Telefone (Whatsapp): <strong>${
-                req.body.phoneNumber
-              }</strong> <br/>
-              Valor médio da conta: <strong>R$${
-                req.body.accountValue
-              }</strong><br/>
-              Economia sugerida por ano: <strong>R$${
-                req.body.economyPerYear
-              }</strong>  <br/>
-              Alta tensão: <strong>${
-                req.body.highVoltage ? "Sim" : "Não"
-              }</strong> <br/>
-              Politica de privacidade assinada: <strong>${
-                req.body.privacy ? "Sim" : "Não"
-              }</strong> <br/>
+              Telefone (Whatsapp): <strong>${req.body.phoneNumber}</strong> <br/>
+              Empresa: <strong>${req.body.company}</strong> <br/><br/>  
+              Assunto: <strong>${req.body.subject}</strong> <br/><br/>  
+              Mensagem:<br/>
+              ${req.body.message}
         </p>  
             <div class="email-signature">
-                <p class="email-signature-text">TR Energia solar</p>
+                <p class="email-signature-text">ENGECON ENGENHARIA</p>
             </div>
         </div>
     </div>
@@ -128,7 +122,7 @@ export default async function (req, res) {
   const mailDataClient = {
     from: process.env.NEXT_PUBLIC_USER,
     to: req.body.email,
-    subject: "TR Energia Solar - Solicitação de energia limpa",
+    subject: "Engecon Engenharia, Agradecemos pelo seu contato",
     html: `
   <!DOCTYPE html>
   <html lang="en">
@@ -138,7 +132,7 @@ export default async function (req, res) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <title>Solicitação de energia limpa</title>
+    <title>Obrigado por nos contatar</title>
     <style>
         /* Email body styles */
         body {
@@ -165,6 +159,9 @@ export default async function (req, res) {
         .email-header {
             text-align: center;
             margin-bottom: 30px;
+        }
+        img {
+            max-width: 300px;
         }
 
         /* Email heading styles */
@@ -206,34 +203,23 @@ export default async function (req, res) {
   <body>
     <div class="email-container">
         <div class="email-header">
-            <img src="https://www.trenergiasolar.eco.br/img/logo.png" alt="Solar Energy Company Logo">
-            <h1 class="email-heading">Solicitação de economia, realizadacom sucesso!</h1>
+            <h1 class="email-heading">Obrigado por nos contatar a ENGECON ENGENHARIA!</h1>
         </div>
         <div class="email-message">
-        Prezado ${req.body.name},
-
-        <p>
-        Obrigado por enviar sua inscrição à TR Energia Solar para o Sistema de Locação de Painéis Solares. Temos o prazer de informar que sua inscrição foi recebida com sucesso.
-        
-        <p/>
-        <p>
-        Nossa equipe de especialistas está analisando sua inscrição e entraremos em contato com você em breve para discutir os detalhes do programa e responder a quaisquer perguntas que você possa ter. Com este programa, você poderá reduzir o valor da sua conta de energia em até 20% sem nenhuma instalação.
-        <p/>
-        <p>
-        Usaremos o e-mail e o número de telefone que você forneceu para entrar em contato com você o mais rápido possível.
-
-        <p/>
-        <p>
-        Se você tiver alguma dúvida ou preocupação em relação ao seu sistema, sinta-se à vontade para entrar em contato com nossa equipe de atendimento ao cliente em (81) 99877-5665 ou envie-nos um e-mail para contato@trenergia.eco.br. Nossa equipe está sempre disponível para ajudá-lo com qualquer dúvida que possa ter.
-
-        <p/>
-        <p>
-        Obrigado por escolher a TR Energia solar. Esperamos trabalhar com você para reduzir o valor de sua conta de energia e ajudá-lo a mudar para energia limpa e renovável.
-        <p/>       
-        <p>Atenciosamente,</p>
-          <div class="email-signature">
-                <p class="email-signature-text">TR Energia solar</p>
+            <p>Olá ${req.body.name},</p>
+            <p>Agradecemos por entrar em contato conosco sobre nossos serviços de recuperação estrutural. <br/>  Com anos de experiência no mercado, Engecon Engenharia é reconhecida por sua excelência e dedicação em todos os projetos que assume. Nossa credibilidade se reflete na satisfação de nossos clientes e na solidez de nossas realizações.</p><br/>
+            <p>A recuperação estrutural é um dos nossos serviços de destaque. Utilizamos técnicas avançadas e inovadoras para garantir a integridade e segurança das estruturas, garantindo sua durabilidade e resistência ao longo do tempo.</p><br/>
+            <p>Em breve, nossa equipe especializada entrará em contato para tratar do assunto que você nos apresentou e esclarecer quaisquer dúvidas. Até lá, saiba que sua estrutura está em mãos confiáveis.</p><br/>
+            <div class="email-signature">
+                <p class="email-signature-text">Engecon Engenharia</p>
+                <div>
+                <a href="https://www.engeconrecife.com.br/">Acesso nosso site</a>
+                </div>
+                <div>
+                <a href="https://api.whatsapp.com/send?phone=55819888021">Entre em contato pelo nosso Whatsapp</a>
+                </div>
             </div>
+        </div>
     </div>
   </body>
   </html>`,
@@ -241,5 +227,5 @@ export default async function (req, res) {
 
   let infoClient = await transporter.sendMail(mailDataClient);
 
-  res.send({ toTR: info, toClient: infoClient });
+  return res.status(200).send({ toCompany: info, toClient: infoClient });
 }

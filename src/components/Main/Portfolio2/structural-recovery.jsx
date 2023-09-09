@@ -46,24 +46,25 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="gallery min-30">
+        <div className="gallery">
           <div className="row">
             {portfolio.images.map((image, idx) => (
               <div
-                className={`col-lg-4 col-md-6 items services ${image.filter} wow fadeInUp`}
-                data-wow-delay=".4s"
+                className={`col-lg-4 col-md-6 items ${image.filter} wow`}
                 key={idx}
               >
                 <div className="item-img">
+                  {/* <Link href="structural-recovery"> */}
                   <a className="imago wow">
                     <img src={image.url} alt="image" />
                     <div className="item-img-overlay dark-blue-bg text-white justify-center">
-                      <span className="text-center see-more-services text-light fz-16">
+                      <span className="text-center see-more see-more-services text-light fz-16">
                         {image.details}
                       </span>
                       {/* <i className="fas fa-arrow-right icon text-light fz-20"></i> */}
                     </div>
                   </a>
+                  {/* </Link> */}
                 </div>
                 <div className="cont mt-30 text-center">
                   <h6 className="fw-700 fz-17 mb-5">{image.title}</h6>
