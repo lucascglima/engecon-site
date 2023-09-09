@@ -5,11 +5,11 @@ import initIsotope from "../../../common/initIsotope";
 import portfolio from "../../../data/main/portfolio-ref.json";
 
 const Portfolio = () => {
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     initIsotope();
-  //   }, 500);
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      initIsotope();
+    }, 500);
+  }, []);
 
   return (
     <section className="portfolio section-padding bg-gray">
