@@ -2,6 +2,19 @@ import { useState, createRef } from "react";
 import { useRouter } from "next/router";
 import InputMask from "react-input-mask";
 const Form = () => {
+  const router = useRouter();
+  console.log(router.asPath == "/");
+  const url = () => {
+    if (router.asPath == "/") {
+      return "/api/contact";
+    } else if (router.asPath == "/structural-recovery") {
+      return "/api/structural-recovery";
+    } else if (router.asPath == "/structural-reinforcement") {
+      return "/api/structural-reinforcement";
+    } else if (router.asPath == "/impermeabilization") {
+      return "/api/impermeabilization";
+    }
+  };
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -49,18 +62,16 @@ const Form = () => {
   };
 
   const handleSubmit = async (values) => {
-    // const router = useRouter();
     values.preventDefault();
 
     //= Validate Form
     if (!validateForm(formData)) return;
-    await fetch("/api/contact", {
+    await fetch(url, {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
       },
-
       body: JSON.stringify(formData),
     }).then((res) => {
       console.log(res, "response contact");

@@ -5,16 +5,16 @@
       "operator": "*"
     },
     {
-      "name": "Impermeabilização",
-      "operator": ".imp"
-    },
-    {
       "name": "Recuperação estrutural",
       "operator": ".rec"
     },
     {
       "name": "Reforço estrutural",
       "operator": ".ref"
+    },
+    {
+      "name": "Impermeabilização",
+      "operator": ".imp"
     }
   ],
   "images": [
@@ -23,37 +23,42 @@
       "type": "Reforço Estrutural",
       "title": "Condomínio XYZ",
       "filter": "ref",
-      "href": "/"
+      "href": "/structural-reinforcement"
     },
     {
       "url": "img/engecon/enviadas/slide-2.webp",
       "type": "Recuperação Estrutural",
       "title": "Condomínio XYZ",
-      "filter": "rec"
+      "filter": "rec",
+      "href": "/structural-recovery"
     },
     {
       "url": "img/engecon/enviadas/slide-3.webp",
       "type": "Impermeabilização",
       "title": "Condomínio XYZ",
-      "filter": "imp"
+      "filter": "imp",
+      "href": "/impermeabilization"
     },
     {
       "url": "img/engecon/enviadas/slide-4.webp",
       "type": "Recuperação Estrutural",
       "title": "Condomínio XYZ",
-      "filter": "rec"
+      "filter": "rec",
+      "href": "/structural-recovery"
     },
     {
       "url": "img/engecon/enviadas/slide 4.webp",
       "type": "Impermeabilização",
       "title": "Condomínio XYZ",
-      "filter": "ref"
+      "filter": "ref",
+      "href": "/structural-reinforcement"
     },
     {
       "url": "img/engecon/enviadas/slide-1.webp",
       "type": "Reforço Estrutural",
       "title": "Condomínio XYZ",
-      "filter": "imp"
+      "filter": "imp",
+      "href": "/impermeabilization"
     }
   ]
 }

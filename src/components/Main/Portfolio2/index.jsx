@@ -48,7 +48,7 @@ const Portfolio = () => {
           <div className="row">
             {portfolio.images.map((image, idx) => (
               <div
-                className={`col-lg-4 col-md-6 items ${image.filter} wow fadeInUp`}
+                className={`col-lg-4 col-md-6 items ${image.filter} wow`}
                 key={idx}
               >
                 <div className="item-img">
