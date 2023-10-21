@@ -347,13 +347,18 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/structural-recovery">
-                <a className="nav-link">Recuperação estrutural</a>
+              <Link href="/recovery-structural-reinforcement">
+                <a className="nav-link">Recuperação e Reforço Estrutural</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/structural-reinforcement">
-                <a className="nav-link">Reforço estrutural</a>
+              <Link href="/raa-treatment">
+                <a className="nav-link">Tratamento de RAA</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/reinforcement-of-coffin-building">
+                <a className="nav-link">Reforço de prédio caixão</a>
               </Link>
             </li>
             <li className="nav-item">

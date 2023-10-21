@@ -1,10 +1,10 @@
 {
   "years": 40,
-  "text": "A impermeabilização é um processo que exige conhecimento técnico e a utilização de materiais adequados. ",
-  "srtext": "O método de impermeabilização escolhido depende do tipo de estrutura, das condições existentes e das necessidades específicas do condomínio. Existem diversos sistemas de impermeabilização, incluindo mantas asfálticas, poliméricas, argamassas poliméricas, resinas, entre outros.",
+  "text": "Além do inconveniente do gotejamento, as infiltrações provocam danos nas estruturas acelerando o processo de corrosão das armaduras.",
+  "srtext": "Além do inconveniente do gotejamento, as infiltrações provocam danos nas estruturas acelerando o processo de corrosão das armaduras.",
   "feats": [
     {
-      "bg": "img/engecon/enviadas/slide-1.webp",
+      "bg": "img/engecon/novas/fund-raa/fund-raa-7.png",
       "numb": "01 .",
       "title": "Infiltrações e Vazamentos",
       "type": "Este é o problema mais comum resultante de uma impermeabilização inadequada."
@@ -16,13 +16,37 @@
       "type": "A infiltração nas estruturas de concreto pode levar a rachaduras e enfraquecimento da estrutura."
     },
     {
-      "bg": "img/engecon/impermeabilizacao/8.webp",
+      "bg": "img/engecon/novas/imp/imp-new-1.png",
       "numb": "03 .",
       "title": "Desvalorização do Imóvel",
       "type": "A reputação do prédio pode ser prejudicada, tornando mais difícil alugar ou vender as unidades."
     },
     {
-      "bg": "img/engecon/impermeabilizacao/6.webp",
+      "bg": "img/engecon/novas/imp/imp-new-2.png",
+      "numb": "04 .",
+      "title": "Danos às Acabamentos",
+      "type": "A umidade e a água vazando podem danificar acabamentos como pintura, revestimentos de piso."
+    },
+    {
+      "bg": "img/engecon/novas/imp/imp-new-3.png",
+      "numb": "04 .",
+      "title": "Danos às Acabamentos",
+      "type": "A umidade e a água vazando podem danificar acabamentos como pintura, revestimentos de piso."
+    },
+    {
+      "bg": "img/engecon/novas/imp/imp-new-4.png",
+      "numb": "04 .",
+      "title": "Danos às Acabamentos",
+      "type": "A umidade e a água vazando podem danificar acabamentos como pintura, revestimentos de piso."
+    },
+    {
+      "bg": "img/engecon/novas/imp/imp-new-5.png",
+      "numb": "04 .",
+      "title": "Danos às Acabamentos",
+      "type": "A umidade e a água vazando podem danificar acabamentos como pintura, revestimentos de piso."
+    },
+    {
+      "bg": "img/engecon/novas/imp/imp-new-6.png",
       "numb": "04 .",
       "title": "Danos às Acabamentos",
       "type": "A umidade e a água vazando podem danificar acabamentos como pintura, revestimentos de piso."

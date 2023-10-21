@@ -4,9 +4,9 @@ import Head from "next/head";
 //= Layout
 import MainLightLayout from "../../layouts/main-light";
 //= Components
-import Header from "../../components/Business/Header2";
+import Header from "../../components/Business/Header2/imp";
 
-import Features from "../../components/Business/Features";
+import Features from "../../components/Business/Features/impermeabilization";
 import Process from "../../components/Business/Process";
 import Process2 from "../../components/Main/Process2";
 import Portfolio2 from "../../components/Main/Portfolio2/impermeabilization";
@@ -45,8 +45,8 @@ const ServicesBusiness = () => {
         <main className="">
           <StickyBar />
           <Features services={true} />
-          <Portfolio2 />
-          <Process />
+          {/* <Portfolio2 /> */}
+          {/* <Process /> */}
           <Process2 />
           <Contact />
           <Footer

@@ -5,7 +5,7 @@ const Features = ({ services }) => {
   return (
     <section
       className={`feat-exp section-padding ${
-        services ? "pb-50" : "pb-0"
+        services ? "pb-50 h-100" : "pb-0"
       } bg-dark-blue`}
       data-overlay-dark="0"
     >
@@ -20,7 +20,7 @@ const Features = ({ services }) => {
                   Por que realizar{" "}
                   <span className="fw-600 green-text">
                     {" "}
-                    Recuperação estrutural?
+                    Recuperação e Reforço Estrutural?
                   </span>{" "}
                 </h2>
               ) : (
@@ -28,7 +28,7 @@ const Features = ({ services }) => {
                   Por que realizar{" "}
                   <span className="fw-600 green-text">
                     {" "}
-                    Recuperação estrutural?
+                    Recuperação e Reforço Estrutural?
                   </span>{" "}
                 </h2>
               )}
@@ -46,19 +46,19 @@ const Features = ({ services }) => {
         <div className="row">
           {features.feats.map((feature, idx) =>
             services ? (
-              <div key={idx} className="col-lg-3 col-md-6 hover3d">
+              <div key={idx} className="col-lg-3 col-md-6 hover3d pt-10">
                 <div
                   className="feat-item-img hover3d-child bg-img d-flex align-items-end"
                   style={{ backgroundImage: `url('${feature.bg}')` }}
                   data-overlay-dark="4"
                 >
-                  <div className="num">{feature.numb}</div>
+                  {/* <div className="num">{feature.numb}</div>
                   <div className="cont">
                     <h6 className="fz-22 fw-500">{feature.type}</h6>
                     <span className="fz-14 opacity-8 mb-5 ">
                       {feature.title}
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ) : (

@@ -3891,6 +3891,7 @@ img.left {
 }
 
 .navbar.light .navbar-nav .nav-link {
+  text-align: center;
   color: black;
 }
 
@@ -6258,7 +6259,8 @@ header.simple-header .path a:after {
 
 .feat-exp.bg-dark-blue {
   position: relative;
-  z-index: 2;
+  padding: 32px;
+  /* z-index: 2; */
 }
 
 .feat-exp.bg-dark-blue:after {
@@ -6294,6 +6296,7 @@ header.simple-header .path a:after {
   padding: 30px;
   position: relative;
   border-radius: 12px;
+  margin-bottom: 32px;
 }
 .process-photo {
   border-radius: 12px;
