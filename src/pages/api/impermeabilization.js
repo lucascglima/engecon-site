@@ -13,8 +13,7 @@ export default async function (req, res) {
   const mailData = {
     from: process.env.NEXT_PUBLIC_USER,
     to: process.env.NEXT_PUBLIC_USER,
-    subject:
-      "Novo Contato de Recuperação e Reforço Estrutural- " + req.body.name,
+    subject: "Novo Contato de Impermeabilização - " + req.body.name,
     html: `
     <!DOCTYPE html>
   <html lang="en">
@@ -208,9 +207,9 @@ export default async function (req, res) {
         </div>
         <div class="email-message">
             <p>Olá ${req.body.name},</p>
-            <p>É com grande satisfação que agradecemos seu contato com a Engecon Engenharia. Sua busca por soluções em recuperação e reforço estrutural é de extrema importância para nós, e estamos entusiasmados em compartilhar como nossa expertise pode ser benéfica para seu projeto.</p><br/>
-            <p>Com anos de operação no mercado, a Engecon Engenharia consolidou uma reputação de confiança e eficácia, oferecendo soluções estruturais inovadoras e personalizadas. Nosso time de engenheiros e técnicos especializados possui vasta experiência em diagnósticos precisos e na implementação de estratégias de reforço e recuperação que asseguram a integridade e segurança das edificações.<br/>
-             <p>Agradecemos a oportunidade de contribuir para a segurança e durabilidade do seu empreendimento. Para qualquer esclarecimento adicional ou para dar continuidade à discussão de como podemos atender às suas necessidades específicas, por favor, não hesite em nos contatar.
+            <p>Primeiramente, gostaríamos de expressar nossa gratidão por você ter escolhido entrar em contato conosco sobre nossos serviços de reforço estrutural. <br/> Com anos de experiência acumulada e uma equipe de profissionais altamente qualificados, garantimos soluções de impermeabilização eficazes e duradouras. Entendemos que proteger estruturas contra a penetração de água e umidade é crucial para manter a integridade do seu investimento e a segurança dos usuários do edifício.</p><br/>
+            <p>Nosso portfólio abrange uma ampla gama de projetos, cada um atendendo aos desafios únicos apresentados por diferentes tipos de construção e exposição ambiental. Utilizamos materiais de ponta e técnicas avançadas para oferecer um serviço que não apenas atenda, mas também exceda suas expectativas de qualidade e desempenho.<br/>
+             <p>Em breve, nossa equipe especializada entrará em contato para tratar do assunto que você nos apresentou e esclarecer quaisquer dúvidas. Até lá, saiba que sua estrutura está em mãos confiáveis.
             <div class="email-signature"></p><br/>
                 <p class="email-signature-text">Engecon Engenharia</p>
                 <div>

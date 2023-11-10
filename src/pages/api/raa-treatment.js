@@ -13,7 +13,7 @@ export default async function (req, res) {
   const mailData = {
     from: process.env.NEXT_PUBLIC_USER,
     to: process.env.NEXT_PUBLIC_USER,
-    subject: "Novo Contato de Reforço estrutural - " + req.body.name,
+    subject: "Novo Contato de Tratamento de RAA - " + req.body.name,
     html: `
     <!DOCTYPE html>
   <html lang="en">
@@ -207,8 +207,8 @@ export default async function (req, res) {
         </div>
         <div class="email-message">
             <p>Olá ${req.body.name},</p>
-            <p>Primeiramente, gostaríamos de expressar nossa gratidão por você ter escolhido entrar em contato conosco sobre nossos serviços de reforço estrutural. <br/> Com anos de experiência e expertise em engenharia, a Engecon Engenharia tem orgulho de ser uma referência no setor. Nossa trajetória é marcada pela excelência, inovação e, acima de tudo, comprometimento com a segurança e satisfação de nossos clientes.</p><br/>
-            <p>O reforço estrutural é essencial para garantir que edificações antigas ou que passaram por alguma alteração em sua estrutura original mantenham sua integridade e segurança. Utilizamos técnicas avançadas e materiais de ponta para garantir o reforço necessário, restaurando a confiabilidade da estrutura.<br/>
+            <p>Agradecemos seu contato e o interesse demonstrado em nossos serviços de impermeabilização durante nossa recente conversa. Na Engecon Engenharia, temos um compromisso inabalável com a excelência em todos os projetos que empreendemos, e é com prazer que destacamos nossa especialização nesse campo vital da construção civil.</p><br/>
+            <p>O tratamento de RAA é um dos nossos serviços mais requisitados, devido à sua importância crítica na preservação da integridade e longevidade das estruturas de concreto. Compreendemos que a reação álcali-agregado é uma preocupação substancial para qualquer projeto, e nossa abordagem para mitigá-la é abrangente e adaptada às condições específicas de cada obra.<br/>
              <p>Em breve, nossa equipe especializada entrará em contato para tratar do assunto que você nos apresentou e esclarecer quaisquer dúvidas. Até lá, saiba que sua estrutura está em mãos confiáveis.
             <div class="email-signature"></p><br/>
                 <p class="email-signature-text">Engecon Engenharia</p>

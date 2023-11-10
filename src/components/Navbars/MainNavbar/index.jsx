@@ -35,8 +35,10 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
       <div className="container">
         <Link className="navbar-brand" href="/">
           <div className="logo">
-            {logoTheme === "dark" && <img src="img/logo-preta.svg" alt="" />}
-            {logoTheme === "light" && <img src="img/logo-preta.svg" alt="" />}
+            {logoTheme === "dark" && <img src="img/logo-preta-v2.svg" alt="" />}
+            {logoTheme === "light" && (
+              <img src="img/logo-preta-v2.svg" alt="" />
+            )}
             {!logoTheme && <img src="img/logo-preta.svg" alt="" />}
           </div>
         </Link>
@@ -374,7 +376,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
           </ul>
           <div className="social">
             <ul className="rest">
-              <li>
+              <li className="flex">
                 <a
                   onClick={() => {
                     window.open(
@@ -383,7 +385,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
                     );
                   }}
                 >
-                  <i className="fab fa-instagram"></i>
+                  <i className="fab fa-instagram social-icon-nav"></i>
                 </a>
                 <a
                   onClick={() => {
@@ -393,7 +395,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
                     );
                   }}
                 >
-                  <i className="fab fa-whatsapp"></i>
+                  <i className="fab fa-whatsapp social-icon-nav"></i>
                 </a>
               </li>
             </ul>

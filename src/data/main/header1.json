@@ -11,17 +11,17 @@
   },
   {
     "id": 2,
-    "bg": "img/engecon/estrutural/1.jpg",
+    "bg": "img/engecon/novas/fund-raa/fund-raa-carrossel.webp",
     "title": "Tratamento de RAA",
     "details": "Tratamento de fundação com Reação Álcali-Agregado: Serviços de injeção de resina epóxi e impermeabilização por cristalização das sapatas e blocos de fundação.",
     "btn": {
-      "text": "Ver mais",
+      "text": "Saiba mais",
       "link": "/raa-treatment"
     }
   },
   {
     "id": 3,
-    "bg": "img/engecon/impermeabilizacao/6.webp",
+    "bg": "img/engecon/novas/ref-caix/ref-caix-carrossel.webp",
     "title": "Reforço de prédio tipo caixão",
     "details": "Reforço do embasamento e paredes de prédios tipo caixão.",
     "btn": {

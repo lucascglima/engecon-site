@@ -41,7 +41,7 @@ const ServicesBusiness = () => {
       </Head>
 
       <MainLightLayout>
-        <Header bg="img/engecon/impermeabilizacao/bg-service.webp" />
+        <Header bg="img/engecon/novas/fund-raa/fund-raa-carrossel.webp" />
         <main className="">
           <StickyBar />
           <Features services={true} />

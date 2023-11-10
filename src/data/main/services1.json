@@ -2,24 +2,45 @@
   {
     "id": 3,
     "icon": "fa-solid fa-screwdriver-wrench",
-    "title": "Recuperação estrutural",
+    "title": "Recuperação e Reforço estrutural",
     "detials": "Essencial para manter a segurança, funcionalidade e valor do imóvel. Benefícios a longo prazo;",
-    "tags": ["Infiltrações", "Trincas", "Deformações", "Desgaste"]
+    "tags": ["Infiltrações", "Trincas", "Deformações", "Desgaste"],
+    "btn": {
+      "text": "Saiba mais",
+      "link": "/recovery-structural-reinforcement"
+    }
   },
   {
     "id": 2,
     "icon": " fa-solid fa-building-shield",
-    "title": "Reforço estrutural",
-    "detials": "Estabilidade da estrutura do condomínio, os residentes podem viver com tranquilidade.",
+    "title": "Tratamento de RAA",
+    "detials": "O tratamento adequado de RAA é crucial para garantir a longevidade e a segurança das estruturas de concreto.",
     "tags": ["Vigas", "Pilares", "Lajes", "Fundações"],
-    "href": "/services-business/structural-reinforcement"
+    "btn": {
+      "text": "Saiba mais",
+      "link": "/raa-treatment"
+    }
   },
   {
     "id": 1,
+    "icon": "fa-solid fa-house-circle-exclamation",
+    "title": "Reforço de prédio caixão",
+    "detials": "Modernização de estruturas existentes para melhorar sua resistência ou desempenho sob novas condições",
+    "tags": ["Colunas", "Vigas", "Fundações", "Degradação"],
+    "btn": {
+      "text": "Saiba mais",
+      "link": "/reinforcement-of-coffin-building"
+    }
+  },
+  {
+    "id": 0,
     "icon": "fa-solid fa-paint-roller",
     "title": "Impermeabilização",
     "detials": "Os serviços de impermeabilização podem ser aplicados em diversas áreas do condomínio.",
     "tags": ["Coberturas", "lajes", "piscinas", "Subsolos", "Garagens"],
-    "href": "/services-business/impermeabilization"
+    "btn": {
+      "text": "Saiba mais",
+      "link": "/impermeabilization"
+    }
   }
 ]
