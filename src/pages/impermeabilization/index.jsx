@@ -10,6 +10,7 @@ import Features from "../../components/Business/Features/impermeabilization";
 import Process from "../../components/Business/Process";
 import Process2 from "../../components/Main/Process2";
 import Portfolio2 from "../../components/Main/Portfolio2/impermeabilization";
+import CallToAction from "../../components/Main/CallAction/imp";
 import StickyBar from "../../components/Common/StickyBar";
 import Footer from "../../components/Footers/MainFooter";
 import Contact from "../../components/Creative/Contact";
@@ -45,6 +46,7 @@ const ServicesBusiness = () => {
         <main className="">
           <StickyBar />
           <Features services={true} />
+          <CallToAction />
           {/* <Portfolio2 /> */}
           {/* <Process /> */}
           <Process2 />

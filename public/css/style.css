@@ -11286,6 +11286,14 @@ body.index-main .bg-gray {
 .social-icon-nav {
   font-size: 24px;
 }
-p {
-  text-align: justify;
+.call-action-imp {
+  border-top: none !important;
+  border-radius: 0 !important;
+}
+.call-action-imp:before {
+  border-radius: 0 !important;
+}
+.logo-cristal {
+  max-width: 250px;
+  padding-bottom: 32px;
 }
