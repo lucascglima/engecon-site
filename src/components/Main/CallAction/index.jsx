@@ -17,11 +17,10 @@ const CallToAction = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="text-center">
-              <h2 className="mb-5">Tem um projeto em mente? Vamos discutir.</h2>
-              <p>
-                Entre em contato com nossa equipe e tenha a segurança e
-                tranquilidade para o seu condomínio e empresa
-              </p>
+              <h2 className="mb-5">
+                Está com o laudo técnico e não sabe qual caminho seguir?
+              </h2>
+              <p className="text-center">Fale com a gente!</p>
 
               <a
                 className="butn butn-md green-bg text-light radius-30 mt-30"

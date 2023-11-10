@@ -1,5 +1,5 @@
 import Tilt from "react-parallax-tilt";
-import features from "../../../data/business/features.json";
+import features from "../../../data/business/features-raa-treatment.json";
 
 const Features = ({ services }) => {
   return (
@@ -17,13 +17,16 @@ const Features = ({ services }) => {
             <div className="exp">
               {services ? (
                 <h2 className="fw-600 ">
-                  Por que realizar{" "}
-                  <span className="fw-600 green-text"> impermeabilização?</span>{" "}
+                  O que é o{" "}
+                  <span className="fw-600 green-text">
+                    {" "}
+                    Tratamento de fundação com RAA?
+                  </span>{" "}
                 </h2>
               ) : (
                 <h3 className="fw-700 green-tet">
-                  Por que realizar{" "}
-                  <span className="fw-300">unique website</span>
+                  O que é o{" "}
+                  <span className="fw-300">tratamento de fundação com RAA</span>
                 </h3>
               )}
             </div>
@@ -63,13 +66,13 @@ const Features = ({ services }) => {
                   style={{ backgroundImage: `url('${feature.bg}')` }}
                   data-overlay-dark="4"
                 >
-                  <div className="num">{feature.numb}</div>
+                  {/* <div className="num">{feature.numb}</div>
                   <div className="cont">
                     <h6 className="fz-22 fw-500">{feature.type}</h6>
                     <span className="fz-14 opacity-8 mb-5 ">
                       {feature.title}
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ) : (

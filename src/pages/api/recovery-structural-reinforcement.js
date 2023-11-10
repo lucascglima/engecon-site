@@ -13,7 +13,8 @@ export default async function (req, res) {
   const mailData = {
     from: process.env.NEXT_PUBLIC_USER,
     to: process.env.NEXT_PUBLIC_USER,
-    subject: "Novo Contato de Recuperação estrutural - " + req.body.name,
+    subject:
+      "Novo Contato de Recuperação e Reforço Estrutural- " + req.body.name,
     html: `
     <!DOCTYPE html>
   <html lang="en">
@@ -100,7 +101,7 @@ export default async function (req, res) {
             <h1 class="email-heading">Recebemos um novo contato via website. Aqui estão os detalhes:</h1>
         </div>
         <div class="email-message">
-              Contato feito pela página de <strong>Recuperação estrutural</strong><br/>
+              Contato feito pela página de <strong>Reforço estrutural</strong><br/>
               Nome: <strong>${req.body.name}</strong> <br/>
               E-mail: <strong>${req.body.email}</strong> <br/>
               Telefone (Whatsapp): <strong>${req.body.phoneNumber}</strong> <br/>
@@ -207,10 +208,10 @@ export default async function (req, res) {
         </div>
         <div class="email-message">
             <p>Olá ${req.body.name},</p>
-            <p>Agradecemos por entrar em contato conosco sobre nossos serviços de recuperação estrutural. <br/>  Com anos de experiência no mercado, Engecon Engenharia é reconhecida por sua excelência e dedicação em todos os projetos que assume. Nossa credibilidade se reflete na satisfação de nossos clientes e na solidez de nossas realizações.</p><br/>
-            <p>A recuperação estrutural é um dos nossos serviços de destaque. Utilizamos técnicas avançadas e inovadoras para garantir a integridade e segurança das estruturas, garantindo sua durabilidade e resistência ao longo do tempo.</p><br/>
-            <p>Em breve, nossa equipe especializada entrará em contato para tratar do assunto que você nos apresentou e esclarecer quaisquer dúvidas. Até lá, saiba que sua estrutura está em mãos confiáveis.</p><br/>
-            <div class="email-signature">
+            <p>É com grande satisfação que agradecemos seu contato com a Engecon Engenharia. Sua busca por soluções em recuperação e reforço estrutural é de extrema importância para nós, e estamos entusiasmados em compartilhar como nossa expertise pode ser benéfica para seu projeto.</p><br/>
+            <p>Com anos de operação no mercado, a Engecon Engenharia consolidou uma reputação de confiança e eficácia, oferecendo soluções estruturais inovadoras e personalizadas. Nosso time de engenheiros e técnicos especializados possui vasta experiência em diagnósticos precisos e na implementação de estratégias de reforço e recuperação que asseguram a integridade e segurança das edificações.<br/>
+             <p>Agradecemos a oportunidade de contribuir para a segurança e durabilidade do seu empreendimento. Para qualquer esclarecimento adicional ou para dar continuidade à discussão de como podemos atender às suas necessidades específicas, por favor, não hesite em nos contatar.
+            <div class="email-signature"></p><br/>
                 <p class="email-signature-text">Engecon Engenharia</p>
                 <div>
                 <a href="https://www.engeconrecife.com.br/">Acesso nosso site</a>

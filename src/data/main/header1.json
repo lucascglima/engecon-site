@@ -2,28 +2,38 @@
   {
     "id": 1,
     "bg": "img/engecon/estrutural/ref/ref-3.webp",
-    "title": "Recuperação estrutural",
-    "details": "Seu Condomínio não só será mais seguro e funcional, como também terá o seu valor de mercado potencialmente aumentado essencial para manter a segurança, funcionalidade e valor do imóvel.",
+    "title": "Recuperação e Reforço Estrutural",
+    "details": "Garanta a segurança, estabilidade e funcionalidade do seu edifício.",
     "btn": {
       "text": "Saiba mais",
-      "link": "/structural-recovery"
+      "link": "/recovery-structural-reinforcement"
     }
   },
   {
     "id": 2,
-    "bg": "img/engecon/estrutural/1.jpg",
-    "title": "Reforço estrutural",
-    "details": "Conjunto de procedimentos que buscam identificar, prevenir e corrigir possíveis danos estruturais que possam comprometer a estabilidade do condomínio.",
+    "bg": "img/engecon/novas/fund-raa/fund-raa-carrossel.webp",
+    "title": "Tratamento de RAA",
+    "details": "Tratamento de fundação com Reação Álcali-Agregado: Serviços de injeção de resina epóxi e impermeabilização por cristalização das sapatas e blocos de fundação.",
     "btn": {
-      "text": "Ver mais",
-      "link": "/structural-reinforcement"
+      "text": "Saiba mais",
+      "link": "/raa-treatment"
     }
   },
   {
     "id": 3,
+    "bg": "img/engecon/novas/ref-caix/ref-caix-carrossel.webp",
+    "title": "Reforço de prédio tipo caixão",
+    "details": "Reforço do embasamento e paredes de prédios tipo caixão.",
+    "btn": {
+      "text": "Saiba mais",
+      "link": "/reinforcement-of-coffin-building"
+    }
+  },
+  {
+    "id": 4,
     "bg": "img/engecon/impermeabilizacao/6.webp",
     "title": "Impermeabilização",
-    "details": "Processo cria uma barreira que impede a entrada de água e umidade nas estruturas do edifício, prevenindo assim danos futuros, como infiltrações, mofo e deterioração das estruturas de concreto",
+    "details": "Impermeabilização de lajes descobertas.",
     "btn": {
       "text": "Saiba mais",
       "link": "/impermeabilization"

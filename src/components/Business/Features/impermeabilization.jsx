@@ -23,7 +23,7 @@ const Features = ({ services }) => {
               ) : (
                 <h3 className="fw-700 green-tet">
                   Por que realizar{" "}
-                  <span className="fw-300">unique website</span>
+                  <span className="fw-300">impermeabilização</span>
                 </h3>
               )}
             </div>
@@ -63,13 +63,13 @@ const Features = ({ services }) => {
                   style={{ backgroundImage: `url('${feature.bg}')` }}
                   data-overlay-dark="4"
                 >
-                  <div className="num">{feature.numb}</div>
+                  {/* <div className="num">{feature.numb}</div>
                   <div className="cont">
                     <h6 className="fz-22 fw-500">{feature.type}</h6>
                     <span className="fz-14 opacity-8 mb-5 ">
                       {feature.title}
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ) : (

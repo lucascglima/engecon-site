@@ -35,8 +35,10 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
       <div className="container">
         <Link className="navbar-brand" href="/">
           <div className="logo">
-            {logoTheme === "dark" && <img src="img/logo-preta.svg" alt="" />}
-            {logoTheme === "light" && <img src="img/logo-preta.svg" alt="" />}
+            {logoTheme === "dark" && <img src="img/logo-preta-v2.svg" alt="" />}
+            {logoTheme === "light" && (
+              <img src="img/logo-preta-v2.svg" alt="" />
+            )}
             {!logoTheme && <img src="img/logo-preta.svg" alt="" />}
           </div>
         </Link>
@@ -347,13 +349,18 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/structural-recovery">
-                <a className="nav-link">Recuperação estrutural</a>
+              <Link href="/recovery-structural-reinforcement">
+                <a className="nav-link">Recuperação e Reforço Estrutural</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/structural-reinforcement">
-                <a className="nav-link">Reforço estrutural</a>
+              <Link href="/raa-treatment">
+                <a className="nav-link">Tratamento de RAA</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/reinforcement-of-coffin-building">
+                <a className="nav-link">Reforço de prédio caixão</a>
               </Link>
             </li>
             <li className="nav-item">
@@ -369,7 +376,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
           </ul>
           <div className="social">
             <ul className="rest">
-              <li>
+              <li className="flex">
                 <a
                   onClick={() => {
                     window.open(
@@ -378,7 +385,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
                     );
                   }}
                 >
-                  <i className="fab fa-instagram"></i>
+                  <i className="fab fa-instagram social-icon-nav"></i>
                 </a>
                 <a
                   onClick={() => {
@@ -388,7 +395,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
                     );
                   }}
                 >
-                  <i className="fab fa-whatsapp"></i>
+                  <i className="fab fa-whatsapp social-icon-nav"></i>
                 </a>
               </li>
             </ul>

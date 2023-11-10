@@ -13,7 +13,7 @@ export default async function (req, res) {
   const mailData = {
     from: process.env.NEXT_PUBLIC_USER,
     to: process.env.NEXT_PUBLIC_USER,
-    subject: "Novo Contato de Reforço estrutural - " + req.body.name,
+    subject: "Novo Contato de Reforço de prédio tipo caixão - " + req.body.name,
     html: `
     <!DOCTYPE html>
   <html lang="en">
@@ -100,7 +100,7 @@ export default async function (req, res) {
             <h1 class="email-heading">Recebemos um novo contato via website. Aqui estão os detalhes:</h1>
         </div>
         <div class="email-message">
-              Contato feito pela página de <strong>Reforço estrutural</strong><br/>
+              Contato feito pela página de <strong>Reforço de prédio tipo caixão</strong><br/>
               Nome: <strong>${req.body.name}</strong> <br/>
               E-mail: <strong>${req.body.email}</strong> <br/>
               Telefone (Whatsapp): <strong>${req.body.phoneNumber}</strong> <br/>
@@ -207,10 +207,10 @@ export default async function (req, res) {
         </div>
         <div class="email-message">
             <p>Olá ${req.body.name},</p>
-            <p>Primeiramente, gostaríamos de expressar nossa gratidão por você ter escolhido entrar em contato conosco sobre nossos serviços de reforço estrutural. <br/> Com anos de experiência e expertise em engenharia, a Engecon Engenharia tem orgulho de ser uma referência no setor. Nossa trajetória é marcada pela excelência, inovação e, acima de tudo, comprometimento com a segurança e satisfação de nossos clientes.</p><br/>
-            <p>O reforço estrutural é essencial para garantir que edificações antigas ou que passaram por alguma alteração em sua estrutura original mantenham sua integridade e segurança. Utilizamos técnicas avançadas e materiais de ponta para garantir o reforço necessário, restaurando a confiabilidade da estrutura.<br/>
-             <p>Em breve, nossa equipe especializada entrará em contato para tratar do assunto que você nos apresentou e esclarecer quaisquer dúvidas. Até lá, saiba que sua estrutura está em mãos confiáveis.
-            <div class="email-signature"></p><br/>
+            <p>Agradecemos sinceramente por ter entrado em contato conosco e pelo interesse demonstrado nos serviços da Engecon Engenharia. É com grande prazer que discutimos a extensa experiência de nossa empresa em reforço estrutural e as soluções específicas que oferecemos, incluindo o especializado reforço em prédios tipo caixão.</p><br/>
+            <p>A Engecon Engenharia tem um histórico comprovado de sucesso no fornecimento de serviços de engenharia de alta qualidade, destacando-se em projetos desafiadores que exigem conhecimento técnico avançado e inovação. O serviço de reforço de prédios tipo caixão é uma das nossas áreas de especialização, onde aplicamos nossa expertise para assegurar que as estruturas existentes sejam fortalecidas e adaptadas para cumprir com os padrões de segurança atuais e futuros.</p><br/>
+            <p>A Engecon Engenharia está à disposição para responder a quaisquer perguntas que você possa ter ou para discutir mais detalhadamente como nossos serviços podem beneficiar o seu projeto específico. Estamos ansiosos para trabalhar com você e trazer nossa perícia para assegurar a excelência do seu empreendimento.</p><br/>
+            <div class="email-signature">
                 <p class="email-signature-text">Engecon Engenharia</p>
                 <div>
                 <a href="https://www.engeconrecife.com.br/">Acesso nosso site</a>

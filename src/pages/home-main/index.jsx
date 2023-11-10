@@ -50,14 +50,14 @@ const HomeMain = () => {
         <IntroUp />
         {/* <IntroOutBox />  */}
         <Services />
-        <Portfolio2 />
+        {/* <Portfolio2 /> */}
         {/* <Section /> */}
         {/* <Process /> */}
         {/* <Testimonials /> */}
-        <Numbers />
+        {/* <Numbers /> */}
         <CallToAction />
         <Hero />
-        <Team />
+        {/* <Team /> */}
         {/* <Blog /> */}
         <Contact />
         <Footer footerClass="main-footer bg-dark-blue" />
