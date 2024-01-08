@@ -87,9 +87,10 @@ const Form = () => {
         message: "",
       });
     });
-    // router.push({
-    //   pathname: "/home-main",
-    // });
+
+    router.push({
+      pathname: router.asPath,
+    });
 
     //= Clear Error Message
     setErrMessage("");
