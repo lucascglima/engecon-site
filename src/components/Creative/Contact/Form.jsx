@@ -4,19 +4,7 @@ import InputMask from "react-input-mask";
 const Form = () => {
   const router = useRouter();
   console.log(router.asPath == "/");
-  const url = () => {
-    if (router.asPath.includes("/")) {
-      return "/api/contact";
-    } else if (router.asPath == "/recovery-structural-reinforcement") {
-      return "/api/recovery-structural-reinforcement";
-    } else if (router.asPath == "/raa-treatment") {
-      return "/api/raa-treatment";
-    } else if (router.asPath == "/reinforcement-of-coffin-building") {
-      return "/api/reinforcement-of-coffin-building";
-    } else if (router.asPath == "/impermeabilization") {
-      return "/api/impermeabilization";
-    }
-  };
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -68,7 +56,20 @@ const Form = () => {
 
     //= Validate Form
     if (!validateForm(formData)) return;
-    await fetch(url, {
+    const url = () => {
+      if (router.asPath == "/") {
+        return "/api/contact";
+      } else if (router.asPath == "/recovery-structural-reinforcement") {
+        return "/api/recovery-structural-reinforcement";
+      } else if (router.asPath == "/raa-treatment") {
+        return "/api/raa-treatment";
+      } else if (router.asPath == "/reinforcement-of-coffin-building") {
+        return "/api/reinforcement-of-coffin-building";
+      } else if (router.asPath == "/impermeabilization") {
+        return "/api/impermeabilization";
+      }
+    };
+    await fetch(url(), {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
@@ -196,7 +197,7 @@ const Form = () => {
                   <div className="text-center mt-40  ">
                     <button
                       type="submit"
-                      onClick={handleSubmit}
+                      onSubmit={handleSubmit}
                       className="green-bg"
                     >
                       <span>Enviar</span>
