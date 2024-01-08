@@ -1,7 +1,5 @@
 import { useEffect } from "react";
-import Link from "next/link";
 import parallaxie from "../../../common/parallaxie";
-import LogoCristal from "../../../../public/img/engecon/logo-cristal.png";
 import Image from "next/image";
 const CallToAction = () => {
   useEffect(() => {
