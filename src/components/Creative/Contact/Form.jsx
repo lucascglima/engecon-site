@@ -14,6 +14,8 @@ const Form = () => {
   });
 
   const [errMessage, setErrMessage] = useState(null);
+  const [sendMessage, setSendMessage] = useState("");
+  const [btnText, setBtnText] = useState("Enviar");
 
   const validateForm = (formValues) => {
     if (!formValues.name || !formValues.email || !formValues.message) {
@@ -76,7 +78,8 @@ const Form = () => {
 
     //= Validate Form
     if (!validateForm(formData)) return;
-
+    setSendMessage("Aguarde um momento, estamos enviando sua mensagem.");
+    setBtnText("Enviando...");
     fetch(url().url, {
       method: "POST",
       headers: {
@@ -85,7 +88,6 @@ const Form = () => {
       },
       body: JSON.stringify(formData),
     }).then((res) => {
-      console.log(res, "response contact");
       setFormData({
         name: "",
         email: "",
@@ -94,6 +96,11 @@ const Form = () => {
         subject: "",
         message: "",
       });
+      setSendMessage("Mensagem enviada com sucesso!");
+      setBtnText("Enviar");
+      setTimeout(() => {
+        setSendMessage("");
+      }, 5000);
     });
     // router.push({
     //   pathname: "/",
@@ -200,15 +207,23 @@ const Form = () => {
                     ></textarea>
                   </div>
                 </div>
-
+                <div className="col-12">
+                  <div className="text-center mt-20 w-600">
+                    <span>{sendMessage}</span>
+                  </div>
+                </div>
                 <div className="col-12">
                   <div className="text-center mt-40  ">
                     <button
                       type="submit"
                       onClick={handleSubmit}
-                      className="green-bg"
+                      className={
+                        btnText != "Enviar" ? "btn-send-disabled" : "green-bg"
+                      }
+                      aria-disabled={sendMessage}
+                      disabled={sendMessage}
                     >
-                      <span>Enviar</span>
+                      <span>{btnText}</span>
                     </button>
                   </div>
                 </div>

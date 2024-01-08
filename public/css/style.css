@@ -9956,8 +9956,8 @@ header.simple-header .path a:after {
   text-align: center;
   border-radius: 30px;
   border: none;
-  background: #3b3f82;
-  color: #fff;
+  /* background: #3b3f82; */
+  /* color: #fff; */
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -11303,4 +11303,9 @@ body.index-main .bg-gray {
   justify-content: center;
   align-items: center;
   font-weight: 600;
+}
+.btn-send-disabled,
+.btn-send-disabled:hover {
+  color: #fafafb !important;
+  background: #b7b7b7 !important;
 }
