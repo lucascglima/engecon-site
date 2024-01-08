@@ -3,7 +3,7 @@
     "id": 3,
     "icon": "fa-solid fa-screwdriver-wrench",
     "title": "Recuperação e Reforço estrutural",
-    "detials": "Essencial para manter a segurança, funcionalidade e valor do imóvel. Benefícios a longo prazo;",
+    "detials": "Essencial para manter a segurança, funcionalidade e valor do imóvel. Benefícios a longo prazo.",
     "tags": ["Infiltrações", "Trincas", "Deformações", "Desgaste"],
     "btn": {
       "text": "Saiba mais",
@@ -25,7 +25,7 @@
     "id": 1,
     "icon": "fa-solid fa-house-circle-exclamation",
     "title": "Reforço de prédio caixão",
-    "detials": "Modernização de estruturas existentes para melhorar sua resistência ou desempenho sob novas condições",
+    "detials": "Modernização de estruturas existentes para melhorar sua resistência ou desempenho sob novas condições.",
     "tags": ["Colunas", "Vigas", "Fundações", "Degradação"],
     "btn": {
       "text": "Saiba mais",

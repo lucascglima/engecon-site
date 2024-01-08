@@ -11297,3 +11297,10 @@ body.index-main .bg-gray {
   max-width: 250px;
   padding-bottom: 32px;
 }
+.text-imp-aux {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}

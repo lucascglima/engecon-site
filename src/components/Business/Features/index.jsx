@@ -20,7 +20,7 @@ const Features = ({ services }) => {
                   O que é o{" "}
                   <span className="fw-600 green-text">
                     {" "}
-                    Tratamento de fundação com RAA?
+                    Tratamento de Fundação com RAA?
                   </span>{" "}
                 </h2>
               ) : (

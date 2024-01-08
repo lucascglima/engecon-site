@@ -5,7 +5,7 @@ const Form = () => {
   const router = useRouter();
   console.log(router.asPath == "/");
   const url = () => {
-    if (router.asPath == "/") {
+    if (router.asPath.includes("/")) {
       return "/api/contact";
     } else if (router.asPath == "/recovery-structural-reinforcement") {
       return "/api/recovery-structural-reinforcement";

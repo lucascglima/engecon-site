@@ -18,19 +18,24 @@ const CallToAction = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="text-center">
-              <img
+              {/* <img
                 src="img/engecon/logo-cristal-img.png"
                 alt="logo-cristal"
                 className="logo-cristal"
-              />
+              /> */}
 
-              <h4 className="mb-5">
-                Conheça a Cristal, empresa especializada em impermeabilização de
-                reservatórios.
+              <h4 className="mb-5 ">
+                Impermeabilização de Reservatórios <br /> (Superiores e
+                Inferiores)
               </h4>
-              {/* <p className="text-center">
-                Entre em contato e agende uma visita
-              </p> */}
+              <p className="text-left text-imp-aux">
+                - Instalação de reservatórios auxiliares para atender a demanda
+                do condomínio. <br /> - Tratamento de fissuras e juntas com
+                injeção. <br />
+                - Recuperação estrutural. <br /> - Tipos de impermeabilização:
+                argamassas poliméricas, cristalizantes e membrana de
+                poliuretano.
+              </p>
 
               <a
                 className="butn butn-md green-bg text-light radius-30 mt-30"

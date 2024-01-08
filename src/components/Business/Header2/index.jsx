@@ -17,7 +17,7 @@ const Header = ({ bg }) => {
           <div className="col-lg-8 col-md-10">
             <div className="caption text-center">
               <h5 className="sub-title fw-400 green-text">ENGECON</h5>
-              <h1 className="fz-60 fw-600 ">Tratamento de fundação com RAA</h1>
+              <h1 className="fz-60 fw-600 ">Tratamento de Fundação com RAA</h1>
             </div>
           </div>
         </div>

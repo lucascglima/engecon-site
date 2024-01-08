@@ -35,11 +35,13 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
       <div className="container">
         <Link className="navbar-brand" href="/">
           <div className="logo">
-            {logoTheme === "dark" && <img src="img/logo-preta-v2.svg" alt="" />}
-            {logoTheme === "light" && (
-              <img src="img/logo-preta-v2.svg" alt="" />
+            {logoTheme === "dark" && (
+              <img src="img/engecon/v2/logo-preta.svg" alt="" />
             )}
-            {!logoTheme && <img src="img/logo-preta.svg" alt="" />}
+            {logoTheme === "light" && (
+              <img src="img/engecon/v2/logo-preta.svg" alt="" />
+            )}
+            {!logoTheme && <img src="img/engecon/v2/logo-preta.svg" alt="" />}
           </div>
         </Link>
 

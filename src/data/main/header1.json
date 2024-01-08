@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "bg": "img/engecon/novas/fund-raa/fund-raa-carrossel.webp",
+    "bg": "img/engecon/v2/home-raa.png",
     "title": "Tratamento de RAA",
     "details": "Tratamento de fundação com Reação Álcali-Agregado: Serviços de injeção de resina epóxi e impermeabilização por cristalização das sapatas e blocos de fundação.",
     "btn": {
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "bg": "img/engecon/estrutural/2.jpg",
+    "bg": "img/engecon/v2/caixao-home.jpeg",
     "title": "Reforço de prédio tipo caixão",
     "details": "Reforço do embasamento e paredes de prédios tipo caixão.",
     "btn": {
@@ -31,9 +31,9 @@
   },
   {
     "id": 4,
-    "bg": "img/engecon/impermeabilizacao/6.webp",
+    "bg": "img/engecon/impermeabilizacao/bg-service.webp",
     "title": "Impermeabilização",
-    "details": "Impermeabilização de lajes descobertas.",
+    "details": "Impermeabilização de lajes descobertas e reservatórios.",
     "btn": {
       "text": "Saiba mais",
       "link": "/impermeabilization"

@@ -1,7 +1,7 @@
 {
   "years": 40,
   "text": "A impermeabilização é um processo que exige conhecimento técnico e a utilização de materiais adequados. ",
-  "srtext": "O serviço consiste no preenchimento das fissuras da estrutura de fundação com resina epóxi, reforço estrutural e impermeabilização por cristalização, conforme termo de referência e projeto previamente definidos por uma empresa especializada.”",
+  "srtext": "O serviço consiste no preenchimento das fissuras da estrutura de fundação com resina epóxi, reforço estrutural e impermeabilização por cristalização, conforme termo de referência e projeto previamente definidos por uma empresa especializada.",
   "feats": [
     {
       "bg": "img/engecon/novas/fund-raa/fund-raa-1.webp",
@@ -46,8 +46,9 @@
       "title": "Defeitos de Construção",
       "type": "Erros durante a fase de construção, como uso de materiais inadequados, técnicas de construção erradas ou falhas no design estrutural"
     },
+
     {
-      "bg": "img/engecon/novas/fund-raa/fund-raa-8.webp",
+      "bg": "img/engecon/v2/raa-1.jpeg",
       "numb": "04 .",
       "title": "Defeitos de Construção",
       "type": "Erros durante a fase de construção, como uso de materiais inadequados, técnicas de construção erradas ou falhas no design estrutural"
