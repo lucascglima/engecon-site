@@ -53,7 +53,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
             </p>
             <p>
               <strong>Endereço:</strong> Rua Marechal Rondon, 146 Cx Postal 521
-              – Casa Forte – Recife – PE CEP 52.061-050
+              – Casa Forte – Recife – PE CEP 52.061-055
             </p>
             <p>
               <strong>CNPJ:</strong> 23.131.228/0001-16
