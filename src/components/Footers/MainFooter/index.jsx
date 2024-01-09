@@ -77,7 +77,17 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
               >
                 <i className="fab fa-whatsapp fz-24"></i>
               </a>
-              <p className="ms-4 pointer text-hover">Whatsapp</p>
+              <p
+                className="ms-4 pointer text-hover"
+                onClick={() => {
+                  window.open(
+                    "https://api.whatsapp.com/send?phone=55819888021",
+                    "_blank"
+                  );
+                }}
+              >
+                Whatsapp
+              </p>
             </div>
             <div className="flex">
               <a
@@ -91,7 +101,17 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
               >
                 <i className="fab fa-instagram fz-24"></i>
               </a>
-              <p className="ms-4 pointer text-hover">Instagram</p>
+              <p
+                className="ms-4 pointer text-hover"
+                onClick={() => {
+                  window.open(
+                    "https://www.instagram.com/engeconrecife/",
+                    "_blank"
+                  );
+                }}
+              >
+                Instagram
+              </p>
             </div>
           </div>
         </div>
