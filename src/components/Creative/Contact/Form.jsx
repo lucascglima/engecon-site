@@ -56,14 +56,14 @@ const Form = () => {
       return { url: "/api/contact", pathname: "/" };
     } else if (router.asPath == "/recovery-structural-reinforcement") {
       return {
-        url: "/api/recovery-structural-reinforcement",
+        url: "/api/structural",
         pathname: "/recovery-structural-reinforcement",
       };
     } else if (router.asPath == "/raa-treatment") {
-      return { url: "/api/raa-treatment", pathname: "/raa-treatment" };
+      return { url: "/api/raa", pathname: "/raa-treatment" };
     } else if (router.asPath == "/reinforcement-of-coffin-building") {
       return {
-        url: "/api/reinforcement-of-coffin-building",
+        url: "/api/reinforcement",
         pathname: "/reinforcement-of-coffin-building",
       };
     } else if (router.asPath == "/impermeabilization") {
