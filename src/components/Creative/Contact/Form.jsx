@@ -97,20 +97,14 @@ const Form = () => {
           subject: "",
           message: "",
         });
-        if (res.status == 200) {
-          setSendMessage("Mensagem enviada com sucesso!");
-        } else {
-          setSendMessage(
-            "Não foi possível enviar sua mensagem, entre em contato pelo nosso whatsapp."
-          );
-        }
+        setSendMessage("Mensagem enviada com sucesso!");
         setBtnText("Enviar");
       })
       .catch((error) => {
         console.log(error);
-        setSendMessage(
-          "Não foi possível enviar sua mensagem, entre em contato pelo nosso whatsapp."
-        );
+        // setSendMessage(
+        //   "Não foi possível enviar sua mensagem, entre em contato pelo nosso whatsapp."
+        // );
       });
     setTimeout(() => {
       setSendMessage("");
