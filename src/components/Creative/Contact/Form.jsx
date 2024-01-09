@@ -63,7 +63,7 @@ const Form = () => {
       return { url: "/api/raa", pathname: "/raa-treatment" };
     } else if (router.asPath == "/reinforcement-of-coffin-building") {
       return {
-        url: "/api/reinforcement",
+        url: "/api/coffin",
         pathname: "/reinforcement-of-coffin-building",
       };
     } else if (router.asPath == "/impermeabilization") {
@@ -87,21 +87,28 @@ const Form = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
-    }).then((res) => {
-      setFormData({
-        name: "",
-        email: "",
-        phoneNumber: "",
-        company: "",
-        subject: "",
-        message: "",
+    })
+      .then((res) => {
+        setFormData({
+          name: "",
+          email: "",
+          phoneNumber: "",
+          company: "",
+          subject: "",
+          message: "",
+        });
+        setSendMessage("Mensagem enviada com sucesso!");
+        setBtnText("Enviar");
+      })
+      .catch((error) => {
+        console.log(error);
+        setSendMessage(
+          "Não foi possível enviar sua mensagem, entre em contato pelo nosso whatsapp."
+        );
       });
-      setSendMessage("Mensagem enviada com sucesso!");
-      setBtnText("Enviar");
-      setTimeout(() => {
-        setSendMessage("");
-      }, 5000);
-    });
+    setTimeout(() => {
+      setSendMessage("");
+    }, 5000);
     // router.push({
     //   pathname: "/",
     // });
