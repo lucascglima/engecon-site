@@ -101,7 +101,7 @@ export default async function (req, res) {
             <h1 class="email-heading">Recebemos um novo contato via website. Aqui estão os detalhes:</h1>
         </div>
         <div class="email-message">
-              Contato feito pela página de <strong>Reforço estrutural</strong><br/>
+              Contato feito pela página de <strong>Recuperação e Reforço estrutural</strong><br/>
               Nome: <strong>${req.body.name}</strong> <br/>
               E-mail: <strong>${req.body.email}</strong> <br/>
               Telefone (Whatsapp): <strong>${req.body.phoneNumber}</strong> <br/>
