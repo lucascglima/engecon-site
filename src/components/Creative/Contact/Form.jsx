@@ -97,7 +97,13 @@ const Form = () => {
           subject: "",
           message: "",
         });
-        setSendMessage("Mensagem enviada com sucesso!");
+        if (res.status == 200) {
+          setSendMessage("Mensagem enviada com sucesso!");
+        } else {
+          setSendMessage(
+            "Não foi possível enviar sua mensagem, entre em contato pelo nosso whatsapp."
+          );
+        }
         setBtnText("Enviar");
       })
       .catch((error) => {
