@@ -26,7 +26,7 @@ const StickyBar = () => {
           className="contact-butn pointer"
           onClick={() => {
             window.open(
-              "https://api.whatsapp.com/send?phone=55819888021",
+              "https://api.whatsapp.com/send?phone=5581998880215",
               "_blank"
             );
           }}

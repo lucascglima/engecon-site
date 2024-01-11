@@ -70,7 +70,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
                 className="mr-10"
                 onClick={() => {
                   window.open(
-                    "https://api.whatsapp.com/send?phone=55819888021",
+                    "https://api.whatsapp.com/send?phone=5581998880215",
                     "_blank"
                   );
                 }}
@@ -81,7 +81,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
                 className="ms-4 pointer text-hover"
                 onClick={() => {
                   window.open(
-                    "https://api.whatsapp.com/send?phone=55819888021",
+                    "https://api.whatsapp.com/send?phone=5581998880215",
                     "_blank"
                   );
                 }}

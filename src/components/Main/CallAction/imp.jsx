@@ -39,7 +39,7 @@ const CallToAction = () => {
                 className="butn butn-md green-bg text-light radius-30 mt-30"
                 onClick={() => {
                   window.open(
-                    "https://api.whatsapp.com/send?phone=55819888021",
+                    "https://api.whatsapp.com/send?phone=5581998880215",
                     "_blank"
                   );
                 }}
