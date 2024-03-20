@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Split from "../../Split";
 import services from "../../../data/main/services2.json";
 
