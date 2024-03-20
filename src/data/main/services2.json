@@ -1,17 +1,20 @@
 [
   {
-    "icon": "pe-7s-arc",
-    "title": "Effective strategy",
-    "details": "No coding skills required to customize and create unique looks."
+    "icon": "pe-7s-settings",
+    "title": "Serviços de Injeção",
+    "details": "Cliente: ETA de Bezerros",
+    "link": "/pdf/eta-bezerros.pdf"
   },
   {
-    "icon": "pe-7s-paint-bucket",
-    "title": "Customer satisfaction",
-    "details": "No coding skills required to customize and create unique looks."
+    "icon": "pe-7s-paint",
+    "title": "Impermeabilização de Reservatórios por Cristalização",
+    "details": "Cliente:  Residencial Vila Claudete",
+    "link": "/pdf/residencial-vila-claudete.pdf"
   },
   {
-    "icon": "pe-7s-vector",
-    "title": "Powerfull customize",
-    "details": "No coding skills required to customize and create unique looks."
+    "icon": "pe-7s-file",
+    "title": "Artigo",
+    "details": "Assunto: Tratamento de R.A.A em blocos de fundação",
+    "link": "/pdf/artigo-tratamento-raa.pdf"
   }
 ]

@@ -16,6 +16,7 @@ import Hero from "../../components/Architecture/Hero";
 import Contact from "../../components/Creative/Contact";
 
 import StickyBar from "../../components/Common/StickyBar";
+import Services2 from "../../components/Main/Services2";
 
 const HomeMain = () => {
   useEffect(() => {
@@ -56,6 +57,8 @@ const HomeMain = () => {
         {/* <Testimonials /> */}
         {/* <Numbers /> */}
         <CallToAction />
+        <Services2 />
+        {/* <Pricing /> */}
         <Hero />
         {/* <Team /> */}
         {/* <Blog /> */}

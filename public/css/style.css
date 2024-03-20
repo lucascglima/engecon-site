@@ -10978,7 +10978,7 @@ body.index-main .bg-gray {
     top: 70%;
   }
   .char {
-    font-size: 34px;
+    font-size: 12px;
   }
   .slide-details {
     font-size: 13px;
@@ -11309,4 +11309,13 @@ body.index-main .bg-gray {
 .btn-send-disabled:hover {
   color: #fafafb !important;
   background: #b7b7b7 !important;
+}
+
+.pdf-btn {
+  width: 150px;
+  height: 24px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 4px;
+  cursor: pointer;
 }
